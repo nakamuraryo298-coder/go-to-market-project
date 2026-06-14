@@ -35,3 +35,6 @@ node_modules/
 
 # ===== Claude Code local tooling/config =====
 .claude/
+
+# ===== Dev-only local preview router (not for production) =====
+dev-router.php

@@ -1,4 +1,5 @@
 <?php include 'inc/session.php'; ?>
+<?php $isHomeV2 = true; // light split-hero redesign: scopes the light header treatment to the homepage ?>
 
 <!doctype html>
 <html lang="ja" class="scroll-smooth">
@@ -16,43 +17,30 @@ if (!empty($_SESSION['form_data'])) {
 ?>
 <body class="overflow-x-hidden font-bold">
 
+            <!-- ===== Top view (single split hero) — redesign per Figma 案02_ver02 ===== -->
             <div class="w-full relative z-0">
-                <div class="swiper default-carousel">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="bg-banner-02  lg-bg-banner-02 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
-                                <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
-                                    <div class="w-full text-white">
-                                        <h2 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight">３分でわかる<span class="text-skyBlue w-2">「GTM 成熟度」</span><br class="sm:hidden">無料診断</h2>
-                                        <h3 class="text-[16px] md:text-[21px] pt-2 lg:pb-6 lg:py-4">貴社のGo-to-Market（GTM）戦略の成熟度と課題を、3分で可視化。<br>“売れる仕組み”の改善ポイントを無料診断レポートでお届けします。</h3><a href="#free" class="bg-[#F2BD2D] hover:bg-[#e0ac1f] px-4 font-bold text-[20px] my-[20px] text-black text-center rounded transition-colors duration-200 hero-top-cta"><span class="cta-label"><span>無料で診断する</span><span class="cta-break-sp">（約３分で完了）</span></span></a>
-                                    </div>
-                                </div>
-                            </div>
+                <section class="hero-v2">
+                    <span class="hero-v2__blobs" aria-hidden="true"></span>
+                    <div class="hero-v2__inner">
+                        <div class="hero-v2__copy">
+                            <h2 class="hero-v2__title">
+                                <span class="hero-v2__quote">&ldquo;売れる仕組み&rdquo;</span>の課題を、<br>
+                                <span class="hero-v2__accent">3分</span>で可視化。
+                            </h2>
+                            <p class="hero-v2__lead">
+                                GTM成熟度を診断し、市場・営業・マーケティングの<br class="hero-v2__brk">改善ポイントをレポート化。
+                            </p>
+                            <a href="#free" class="hero-v2__cta">
+                                <span>無料で診断する（約3分で完了）</span>
+                                <svg class="hero-v2__cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="bg-banner-01 lg-bg-banner-01  bg-cover bg-no-repeat bg-center mx-auto md:w-full px-1 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
-                                <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
-                                    <div class="w-full text-white">
-                                        <h2 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight">「売れない原因」、<br><span class="text-skyBlue">営業だけの問題</span>にしていませんか？</h2>
-                                        <h3 class="text-[16px] md:text-[21px] pt-2 mb-[40px] lg:pb-6 lg:py-4">マーケティング・営業・CSの分断を整理し、<br class="hidden sm:block">“売れる仕組み”をGo-to-Market（GTM）戦略から見直しましょう。</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bg-banner-03 lg-bg-banner-03 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
-                                <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
-                                    <div class="w-full text-white">
-                                        <h2 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight">「営業任せ」の成長に、<br><span class="text-skyBlue">限界</span>を感じていませんか？</h2>
-                                        <h3 class="text-[16px] md:text-[21px] pt-2 lg:pb-2 lg:py-4">まずは市場・顧客・営業プロセスを整理するところから。<br>課題や成長フェーズに合わせて、貴社にフィットするGTM 戦略を提案いたします。</h3>
-                                        <a href="https://timerex.net/s/contact_d1e0_257d/86059caa" target="_blank" class="bg-[#e45b11] hover:bg-orange-600 h-auto inline-block md:w-[320px] px-10 py-4 font-bold text-[20px] my-[20px] mt-3 text-white text-center rounded uppercase">GTM 課題を相談してみる</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="hero-v2__visual">
+                            <img class="hero-v2__report" src="<?= asset('assets/images/hero-report-ja.png'); ?>" alt="GTM成熟度診断レポートのサンプル" width="900" height="640" loading="eager" decoding="async">
+                            <span class="hero-v2__callout">実際にお渡しするレポートの一部を公開！</span>
                         </div>
                     </div>
-                    <div class="swiper-pagination max-w-[1280px] lg:absolute lg:right-0 m-auto lg:flex lg:gap-1.5 px-11 mb-4"></div>
-                </div>
+                </section>
             </div>
         </div>
         <section class="bg-lightBlue py-7 sm:py-16 md:py-20 lg:py-24" id="strategies">
