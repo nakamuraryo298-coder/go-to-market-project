@@ -896,25 +896,52 @@ display: none;
 }
 .hl { position: absolute; display: block; height: auto; }
 
+/* Layer positions — exact from Figma (board frame 1440×650):
+   left = X/1440, top = Y/650, width = W/1440. */
+
 /* back layer — blobs + circles (z1) */
-.hl--blob-main   { left: 39%;  top: -4%;  width: 47%;   z-index: 1; }
-.hl--blob-left   { left: 0;    top: 4%;   width: 13%;   z-index: 1; }
-.hl--circle-3    { left: 57%;  top: 4%;   width: 5%;    z-index: 1; }
-.hl--circle-1    { left: 31%;  top: 58%;  width: 6%;    z-index: 1; }
-.hl--circle-2    { left: 34%;  top: 30%;  width: 2.4%;  z-index: 1; }
-.hl--circle-4    { left: 36%;  top: 86%;  width: 3.4%;  z-index: 1; }
-.hl--circle-solid{ left: 40%;  top: 68%;  width: 4.4%;  z-index: 1; }
+.hl--blob-main   { left: 40%;     top: -8%;     width: 50%;    z-index: 1; } /* ESTIMATE — awaiting Figma X/Y/W */
+.hl--blob-left   { left: -21.13%; top: 58.38%;  width: 30.08%; z-index: 1; transform: rotate(-9.08deg); }
+.hl--circle-1    { left: 9.19%;   top: 84.66%;  width: 5.47%;  z-index: 1; }
+.hl--circle-2    { left: 49.40%;  top: 8.85%;   width: 1.64%;  z-index: 1; }
+.hl--circle-3    { left: 77.54%;  top: 5.59%;   width: 3.11%;  z-index: 1; }
+.hl--circle-solid{ left: 12.14%;  top: 83.32%;  width: 2.74%;  z-index: 1; }
 
 /* mid layer — icons (z2) */
-.hl--icon-network{ left: 43%;  top: 1%;   width: 6%;    z-index: 2; }
-.hl--icon-coins  { left: 38%;  top: 22%;  width: 4.6%;  z-index: 2; }
-.hl--icon-chart  { left: 92%;  top: 76%;  width: 6%;    z-index: 2; }
+.hl--icon-network{ left: 66.47%;  top: 6.44%;   width: 4.17%;  z-index: 2; }
+.hl--icon-coins  { left: 50.00%;  top: 25.33%;  width: 4.17%;  z-index: 2; opacity: .5; }
+.hl--icon-chart  { left: 94.23%;  top: 81.23%;  width: 4.17%;  z-index: 2; opacity: .5; }
 
-/* front layer — laptop, floating report, character, callout (z3–6) */
-.hl--laptop      { left: 41%;  top: 10%;  width: 58%;   z-index: 3; }
-.hl--report-page { left: 29%;  top: 39%;  width: 13.5%; z-index: 4; }
-.hl--character   { left: 79%;  top: 50%;  width: 11%;   z-index: 5; }
-.hl--callout     { left: 76%;  top: 75%;  width: 17%;   z-index: 6; }
+/* front layer — laptop, floating report, character (z3–5) */
+.hl--laptop      { left: 14.88%;  top: -26.71%; width: 92.47%; z-index: 3; }
+.hl--report-page { left: 42.63%;  top: 45.79%;  width: 11.54%; z-index: 4; }
+.hl--character   { left: 87.29%;  top: 58.52%;  width: 6.53%;  z-index: 5; }
+
+/* callout — HTML text bubble (Figma 260.65×87.25 @ X1094.09 Y526.29) */
+.hero-callout {
+    left: 75.98%;
+    top: 80.97%;
+    width: 18.1%;
+    z-index: 6;
+    box-sizing: border-box;
+    background: #1f5b9c;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.7em 0.9em;
+    font-weight: 700;
+    line-height: 1.45;
+    font-size: clamp(9px, 1.02vw, 15px);
+    box-shadow: 0 6px 16px rgba(15, 23, 42, .18);
+}
+.hero-callout::before {            /* up-pointing tab on the top edge */
+    content: "";
+    position: absolute;
+    left: 14%;
+    top: -7px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #1f5b9c;
+}
 
 .hero-v2__inner {
     position: absolute;

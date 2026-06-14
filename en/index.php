@@ -25,7 +25,6 @@ if (!empty($_SESSION['form_data'])) {
                         <img class="hl hl--circle-3"    src="<?= asset('assets/images/hero/circle-3.png'); ?>"    alt="" aria-hidden="true">
                         <img class="hl hl--circle-1"    src="<?= asset('assets/images/hero/circle-1.png'); ?>"    alt="" aria-hidden="true">
                         <img class="hl hl--circle-2"    src="<?= asset('assets/images/hero/circle-2.png'); ?>"    alt="" aria-hidden="true">
-                        <img class="hl hl--circle-4"    src="<?= asset('assets/images/hero/circle-4.png'); ?>"    alt="" aria-hidden="true">
                         <img class="hl hl--circle-solid" src="<?= asset('assets/images/hero/circle-solid.png'); ?>" alt="" aria-hidden="true">
                         <img class="hl hl--icon-network" src="<?= asset('assets/images/hero/icon-network.png'); ?>" alt="" aria-hidden="true">
                         <img class="hl hl--icon-coins"  src="<?= asset('assets/images/hero/icon-coins.png'); ?>"  alt="" aria-hidden="true">
@@ -33,7 +32,7 @@ if (!empty($_SESSION['form_data'])) {
                         <img class="hl hl--laptop"      src="<?= asset('assets/images/hero/laptop-en.png'); ?>"   alt="Sample of the GTM Maturity Assessment report" fetchpriority="high">
                         <img class="hl hl--report-page" src="<?= asset('assets/images/hero/report-page-en.png'); ?>" alt="" aria-hidden="true">
                         <img class="hl hl--character"   src="<?= asset('assets/images/hero/character.png'); ?>"   alt="" aria-hidden="true">
-                        <img class="hl hl--callout"     src="<?= asset('assets/images/hero/callout-en.png'); ?>"  alt="Here's a sneak peek at part of the report you'll actually receive!">
+                        <div class="hl hero-callout">Here&rsquo;s a sneak peek at part of the<br>report you&rsquo;ll actually receive!</div>
                     </div>
                     <div class="hero-v2__inner">
                         <div class="hero-v2__copy">
