@@ -900,7 +900,7 @@ display: none;
    left = X/1440, top = Y/650, width = W/1440. */
 
 /* back layer — blobs + circles (z1) */
-.hl--blob-main   { left: 48%;     top: -8%;     width: 50%;    z-index: 1; } /* re-derived from image (export bounds ≠ Figma) */
+.hl--blob-main   { left: 48%;     top: -2%;     width: 50%;    z-index: 1; } /* re-derived from image (export bounds ≠ Figma) */
 .hl--blob-left   { left: -4%;     top: 64%;     width: 12%;    z-index: 1; } /* rotation baked into PNG */
 .hl--circle-1    { left: 9.19%;   top: 84.66%;  width: 5.47%;  z-index: 1; }
 .hl--circle-2    { left: 49.40%;  top: 8.85%;   width: 1.64%;  z-index: 1; }
@@ -914,7 +914,7 @@ display: none;
 
 /* front layer — laptop, floating report, character (z3–5)
    laptop/report re-derived from image (export bounds ≠ Figma); character is a clean @2x export */
-.hl--laptop      { left: 19%;     top: -15.5%;  width: 101%;   z-index: 3; }
+.hl--laptop      { left: 6%;      top: -7%;      width: 86%;    z-index: 3; }
 .hl--report-page { left: 39.5%;   top: 44%;     width: 13.7%;  z-index: 4; }
 .hl--character   { left: 87.29%;  top: 58.52%;  width: 6.53%;  z-index: 5; }
 
