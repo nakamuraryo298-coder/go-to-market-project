@@ -41,7 +41,7 @@ if (!empty($_SESSION['form_data'])) {
                                 <span class="hero-v2__quote">&ldquo;売れる仕組み&rdquo;</span>の課題を、<br>
                                 <span class="hero-v2__accent">3分</span>で<span class="hero-v2__accent">可視化</span>。
                             </h2>
-                            <p class="hero-v2__lead">GTM成熟度を診断し、市場・営業・マーケティングの<br class="hero-v2__brk">改善ポイントをレポート化。</p>
+                            <p class="hero-v2__lead">GTM成熟度を診断し、<br class="hero-v2__brk">市場・営業・マーケティングの<br class="hero-v2__brk">改善ポイントをレポート化。</p>
                             <a href="#free" class="hero-v2__cta">
                                 <span>無料で診断する（約3分で完了）</span>
                                 <svg class="hero-v2__cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
