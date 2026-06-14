@@ -17,27 +17,36 @@ if (!empty($_SESSION['form_data'])) {
 ?>
 <body class="overflow-x-hidden font-bold">
 
-            <!-- ===== Top view (single split hero) — redesign per Figma 案02_ver02 ===== -->
+            <!-- ===== Top view (layered composition on #f0f4fb board — Figma 案02_ver02) ===== -->
             <div class="w-full relative z-0">
                 <section class="hero-v2">
-                    <span class="hero-v2__blobs" aria-hidden="true"></span>
+                    <div class="hero-v2__board">
+                        <img class="hl hl--blob-main"   src="<?= asset('assets/images/hero/blob-main.png'); ?>"   alt="" aria-hidden="true">
+                        <img class="hl hl--blob-left"   src="<?= asset('assets/images/hero/blob-left.png'); ?>"   alt="" aria-hidden="true">
+                        <img class="hl hl--circle-3"    src="<?= asset('assets/images/hero/circle-3.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-1"    src="<?= asset('assets/images/hero/circle-1.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-2"    src="<?= asset('assets/images/hero/circle-2.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-4"    src="<?= asset('assets/images/hero/circle-4.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-solid" src="<?= asset('assets/images/hero/circle-solid.png'); ?>" alt="" aria-hidden="true">
+                        <img class="hl hl--icon-network" src="<?= asset('assets/images/hero/icon-network.png'); ?>" alt="" aria-hidden="true">
+                        <img class="hl hl--icon-coins"  src="<?= asset('assets/images/hero/icon-coins.png'); ?>"  alt="" aria-hidden="true">
+                        <img class="hl hl--icon-chart"  src="<?= asset('assets/images/hero/icon-chart.png'); ?>"  alt="" aria-hidden="true">
+                        <img class="hl hl--laptop"      src="<?= asset('assets/images/hero/laptop.png'); ?>"      alt="GTM成熟度診断レポートのサンプル" fetchpriority="high">
+                        <img class="hl hl--report-page" src="<?= asset('assets/images/hero/report-page.png'); ?>" alt="" aria-hidden="true">
+                        <img class="hl hl--character"   src="<?= asset('assets/images/hero/character.png'); ?>"   alt="" aria-hidden="true">
+                        <img class="hl hl--callout"     src="<?= asset('assets/images/hero/callout.png'); ?>"     alt="実際にお渡しするレポートの一部を公開！">
+                    </div>
                     <div class="hero-v2__inner">
                         <div class="hero-v2__copy">
                             <h2 class="hero-v2__title">
                                 <span class="hero-v2__quote">&ldquo;売れる仕組み&rdquo;</span>の課題を、<br>
-                                <span class="hero-v2__accent">3分</span>で可視化。
+                                <span class="hero-v2__accent">3分</span>で<span class="hero-v2__accent">可視化</span>。
                             </h2>
-                            <p class="hero-v2__lead">
-                                GTM成熟度を診断し、市場・営業・マーケティングの<br class="hero-v2__brk">改善ポイントをレポート化。
-                            </p>
+                            <p class="hero-v2__lead">GTM成熟度を診断し、市場・営業・マーケティングの<br class="hero-v2__brk">改善ポイントをレポート化。</p>
                             <a href="#free" class="hero-v2__cta">
                                 <span>無料で診断する（約3分で完了）</span>
                                 <svg class="hero-v2__cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             </a>
-                        </div>
-                        <div class="hero-v2__visual">
-                            <img class="hero-v2__report" src="<?= asset('assets/images/hero-report-ja.png'); ?>" alt="GTM成熟度診断レポートのサンプル" width="900" height="640" loading="eager" decoding="async">
-                            <span class="hero-v2__callout">実際にお渡しするレポートの一部を公開！</span>
                         </div>
                     </div>
                 </section>

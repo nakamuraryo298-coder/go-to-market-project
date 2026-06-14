@@ -16,10 +16,25 @@ if (!empty($_SESSION['form_data'])) {
     $redirectUrl = BASE_URL . '/en/gtm-assessment';
 }
 ?>
-            <!-- ===== Top view (single split hero) — redesign per Figma 案02_ver02 ===== -->
+            <!-- ===== Top view (layered composition on #f0f4fb board — Figma 案02_ver02) ===== -->
             <div class="w-full relative z-0">
                 <section class="hero-v2">
-                    <span class="hero-v2__blobs" aria-hidden="true"></span>
+                    <div class="hero-v2__board">
+                        <img class="hl hl--blob-main"   src="<?= asset('assets/images/hero/blob-main.png'); ?>"   alt="" aria-hidden="true">
+                        <img class="hl hl--blob-left"   src="<?= asset('assets/images/hero/blob-left.png'); ?>"   alt="" aria-hidden="true">
+                        <img class="hl hl--circle-3"    src="<?= asset('assets/images/hero/circle-3.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-1"    src="<?= asset('assets/images/hero/circle-1.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-2"    src="<?= asset('assets/images/hero/circle-2.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-4"    src="<?= asset('assets/images/hero/circle-4.png'); ?>"    alt="" aria-hidden="true">
+                        <img class="hl hl--circle-solid" src="<?= asset('assets/images/hero/circle-solid.png'); ?>" alt="" aria-hidden="true">
+                        <img class="hl hl--icon-network" src="<?= asset('assets/images/hero/icon-network.png'); ?>" alt="" aria-hidden="true">
+                        <img class="hl hl--icon-coins"  src="<?= asset('assets/images/hero/icon-coins.png'); ?>"  alt="" aria-hidden="true">
+                        <img class="hl hl--icon-chart"  src="<?= asset('assets/images/hero/icon-chart.png'); ?>"  alt="" aria-hidden="true">
+                        <img class="hl hl--laptop"      src="<?= asset('assets/images/hero/laptop-en.png'); ?>"   alt="Sample of the GTM Maturity Assessment report" fetchpriority="high">
+                        <img class="hl hl--report-page" src="<?= asset('assets/images/hero/report-page-en.png'); ?>" alt="" aria-hidden="true">
+                        <img class="hl hl--character"   src="<?= asset('assets/images/hero/character.png'); ?>"   alt="" aria-hidden="true">
+                        <img class="hl hl--callout"     src="<?= asset('assets/images/hero/callout-en.png'); ?>"  alt="Here's a sneak peek at part of the report you'll actually receive!">
+                    </div>
                     <div class="hero-v2__inner">
                         <div class="hero-v2__copy">
                             <h1 class="hero-v2__title">
@@ -34,10 +49,6 @@ if (!empty($_SESSION['form_data'])) {
                                 <span>START FREE ASSESSMENT<small>(TAKES ABOUT 3 MINUTE)</small></span>
                                 <svg class="hero-v2__cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             </a>
-                        </div>
-                        <div class="hero-v2__visual">
-                            <img class="hero-v2__report" src="<?= asset('assets/images/hero-report-en.png'); ?>" alt="Sample of the GTM Maturity Assessment report" width="900" height="640" loading="eager" decoding="async">
-                            <span class="hero-v2__callout">Here&rsquo;s a sneak peek at part of the report you&rsquo;ll actually receive!</span>
                         </div>
                     </div>
                 </section>
