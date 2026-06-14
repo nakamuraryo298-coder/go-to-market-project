@@ -1,0 +1,802 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "services": "サービス",
+    "whyGtm": "GTM戦略とは",
+    "caseStudies": "事例紹介",
+    "howWeWork": "働き方",
+    "contactUs": "お問合せ"
+  },
+  "hero": {
+    "title": "勝てる",
+    "titleHighlight": "Go-to-Market 戦略",
+    "titleHighlightSub": "を設計",
+    "subtitle": "『誰に・何を・どう届けるのか』を明確化── 私たちはGTM戦略で”売れる仕組み”を描きます",
+    "cta": "無料相談を予約"
+  },
+  "strategies": {
+    "title": "Go-To-Market",
+    "titleHighlight": "戦略とは",
+    "studyTitle": "明確なGo-to-Market戦略を持たない米国企業:",
+    "statistic": "84.6%",
+    "statisticText": "米国企業の84.6%が既に Go-to-Market(GTM)戦略を 定義しています。",
+    "source": "Source: “25 Statistics to Influence Your 2025 GTM Plan” by Devrix ",
+    "sourceUrl": "https://x.gd/bW2O1",
+    "accessed": " (Accessed: July 18, 2025)"
+  },
+  "challenges": {
+    "title": "ビジネス上の",
+    "titleHighlight": "課題",
+    "items": [
+      {
+        "title": "市場と顧客の理解",
+        "problem1": "- 顧客や競合の把握が甘く、自社の立ち位置が曖昧",
+        "problem2": "- 自社都合のターゲット設計になっている"
+      },
+      {
+        "title": "差別化ポイントと訴求の明確化",
+        "problem1": "- 他社との違いが伝わらず、価格競争に陥る",
+        "problem2": "- 強みがぼんやりして、相手の記憶に残らない"
+      },
+      {
+        "title": "ターゲットとポジショニングの明確化",
+        "problem1": "- 狙う市場を絞りきれず、社内リソースが分散",
+        "problem2": "- 自社の強みを活かした勝ちパターンが見えていない"
+      },
+      {
+        "title": "販売チャネル構築とGTM戦略設計",
+        "problem1": "- マーケと営業の連携がうまくいかずチグハグ",
+        "problem2": "- 営業プロセスが属人的で再現性がない"
+      },
+      {
+        "title": "サービス設計と提供価値の明確化",
+        "problem1": "- 顧客ニーズを把握しないままサービスを市場に投入",
+        "problem2": "- 特徴のみで、訴求ポイントがズレた資料を使用"
+      },
+      {
+        "title": "実行・測定・最適化",
+        "problem1": "- 目先の数字ばかり追い、戦略最適化改善ない",
+        "problem2": "- 商談件数だけこなすだけの動きになりがち"
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Go-to-Market",
+    "titleHighlight": "戦略設計の6ステップ",
+    "subtitle1": "誰に、何を、どうやって届けるのか──",
+    "subtitle2": "GTM戦略は“売れる仕組み”を描く設計図です。",
+    "cta": "無料相談を予約",
+    "steps": [
+      {
+        "number": "01",
+        "label": "WHO",
+        "title": "市場と顧客の理解",
+        "description": "誰に届けるのか?<br/>(市場・顧客の理解)"
+      },
+      {
+        "number": "02",
+        "label": "WHERE",
+        "title": "ターゲット戦略の明確化",
+        "description": "どこを狙うのか?<br/>(ターゲット戦略・ポジショニング)"
+      },
+      {
+        "number": "03",
+        "label": "WHAT",
+        "title": "サービス設計・提供価値",
+        "description": "何を届けるのか?<br/>(サービス設計・提供価値)"
+      },
+      {
+        "number": "04",
+        "label": "WHY",
+        "title": "価値訴求と差別化",
+        "description": "なぜ選ばれるのか?<br/>(差別化ポイント・強み)"
+      },
+      {
+        "number": "05",
+        "label": "HOW",
+        "title": "チャネルの売り方を設計",
+        "description": "どうやって届けるのか?<br/>(販売チャネル・営業プロセス)"
+      },
+      {
+        "number": "06",
+        "label": "WHEN",
+        "title": "計画実行とチューニング",
+        "description": "いつ届けるのか?<br/>(計画実行・KPI・改善)"
+      }
+    ]
+  },
+  "caseStudy": {
+    "title": "case",
+    "titleHighlight": " study",
+    "companyName": "外資系語学",
+    "companyNameHighlight": "ソフトウェアメーカー様",
+    "slides": [
+      {
+        "title": "Business Challenge",
+        "content": "親会社の日本撤退に伴い、直販体制への迅速な転換と営業プロセスの全面再構築が急務となった。 GTM戦略設計により、従来のマーケティングを見直し、営業活動もコンサルティング型へ移行。 2年でゼロから1億レベルの事業に成長させた。"
+      },
+      {
+        "title": "ソリューション",
+        "content": "日本市場に特化したリーンで効率的なセールスプロセスを構築し、デジタルファースト戦略による新しい直接販売モデルを設計・実装しました。"
+      },
+      {
+        "title": "結果",
+        "content": "同社は収益を安定させ、顧客獲得を改善し、数ヶ月以内に持続可能な直接販売チャネルを確立しました。"
+      }
+    ]
+  },
+  "about": {
+    "title": "about",
+    "titleHighlight": "us",
+    "content1": "過去20年間で、営業・マーケティング機能はますます専門化してきました。 インサイドセールスからフィールドセールス、カスタマーサクセスから多様 化したマーケティング業務まで── <br/>細分化が進む一方で、部門間の壁や責任のあいまいさが生まれています。",
+    "points": [
+      "戦略だけを提供するわけではありません。",
+      "実行だけを支援するわけでもありません。",
+      "全体を端から端まで再設計します。"
+    ],
+    "content2": "私たちは現場チームと経営層の双方と連携し、自走型で高い成果を出し続けられる組織を仕組みとして構築し、提供します。"
+  },
+  "faq": {
+    "title": "FAQS",
+    "items": [
+      {
+        "question": "GTM戦略とは何ですか?",
+        "answer": "GTM戦略とは、「誰に・何を・どう売るか」を明確にし、売上を仕組み化する戦略です。新規事業の立ち上げだけでなく、既存の営業やマーケ活動の再設計にも効果があります。"
+      },
+      {
+        "question": "どのような成果が期待できますか？",
+        "answer": "リード数や商談率の向上、営業の効率化と仕組み化、サービス訴求の一貫性などが期待できます。実際に「リード獲得数3倍」「月次売上20〜50%向上」といった成果事例もあります。"
+      },
+      {
+        "question": "他のコンサル会社と何が違うのですか？",
+        "answer": "戦略だけでなく、営業資料やLP、チャネル設計などの実行まで伴走します。マーケ・営業・事業を横断した“実装力”に強みがあります。"
+      },
+      {
+        "question": "どのようなステップで進めますか？",
+        "answer": "課題ヒアリング → ターゲット設計 → 訴求整理 → 売り方の設計 → 施策実行 → 改善提案 の6ステップが基本です。柔軟な調整も可能です。"
+      },
+      {
+        "question": "社内にマーケ担当がいなくても大丈夫ですか?",
+        "answer": "問題ありません。専任人材がいなくても実行可能な設計と支援を行います。マーケ人材が不在の企業にも多数導入実績があります。"
+      },
+      {
+        "question": "BtoB向けですか?BtoCでも使えますか?",
+        "answer": "BtoBが中心ですが、サービス設計やチャネル戦略などはBtoCにも応用可能です。特にハイタッチ商材やサブスクリプション系には効果的です。"
+      },
+      {
+        "question": "予算が限られていても依頼できますか？",
+        "answer": "対応可能です。予算に応じてスポット支援や一部工程のみの伴走も可能です。まずはご相談ください。"
+      },
+      {
+        "question": "どのような業界に対応していますか?",
+        "answer": "過去の実績として一番多いのはIT・SaaS系のサービスですが、幅広く対応可能です。特に課題が複雑化しやすい業界での実績が豊富です。"
+      },
+      {
+        "question": "海外展開の支援も可能ですか?",
+        "answer": "はい。英語での営業資料や現地市場向けポジショニングなど、海外展開を視野に入れた支援も可能です。"
+      },
+      {
+        "question": "どのくらいの期間で成果が出ますか?",
+        "answer": "早ければ1〜2ヶ月で変化が見え始めますが、全体最適には3〜6ヶ月を目安としてください。短期と中長期の両軸で設計します。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "mainTitle": "さあ、GTM戦を",
+    "mainTitleSub": "を",
+    "mainTitle2": "始めましょう",
+    "content1": "新サービスの市場投入、 <br/>ブランドの再ポジショニング、収益基盤の拡大──",
+    "content2": "どんな場面でも、明確な戦略と自信を持って <br/>進められるよう支援します。まずは気軽にご相談ください。",
+    "cta": "無料相談を予約",
+    "content3": "またはフォームから直接お問い合わせください",
+    "form": {
+      "title": "お問い合わせ",
+      "name": "お名前",
+      "email": "メールアドレス",
+      "message": "お問合せ内容",
+      "submit": "送信"
+    }
+  },
+  "footer": {
+    "copyright": "© GTM consulting service",
+    "rights": "All Rights Reserved",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "sitemap": "サイトマップ"
+  },
+  "language": {
+    "en": "EN",
+    "ja": "JP"
+  },
+  "assessment": {
+    "title": "GTMアセスメント",
+    "subtitle": "Go-To-Market戦略を評価するために質問に答えてください。",
+    "progress": "進捗",
+    "completed": "完了",
+    "questions": "質問",
+    "rate": "1〜10で評価",
+    "weak": "弱い",
+    "moderate": "中程度",
+    "strong": "強い",
+    "processing": "処理中...",
+    "generateReport": "レポートを生成",
+    "startOver": "最初から",
+    "getReport": "GTM診断レポートをメール送信",
+    "generating": "生成中...",
+    "assessmentComplete": "GTM診断完了！",
+    "overallScore": "Overall Score",
+    "grade": "グレード",
+    "chartReady": "PDF用チャート準備完了",
+    "getYourReport": "GTM診断レポートをメール送信",
+    "emailDescription": "詳細なアセスメントレポートを受け取るためにメールアドレスを入力してください。",
+    "emailDisabled": "メール機能は現在無効になっています。PDFを直接ダウンロードできます。",
+    "downloadPdf": "PDFダウンロード",
+    "emailAddress": "メールアドレス",
+    "emailPlaceholder": "your@email.com",
+    "sending": "送信中...",
+    "sendReport": "レポートを送信",
+    "reportSent": "レポートが正常に送信されました！",
+    "checkInbox": "詳細なアセスメントレポートはメールをご確認ください。",
+    "startNewAssessment": "新しいアセスメントを開始",
+    "results": "結果",
+    "report": "レポート",
+    "email": {
+      "success": "アセスメントレポートが送信されました！",
+      "error": "メールの送信に失敗しました。再試行してください。",
+      "pdfUploadError": "PDFアップロードに失敗しました: {{message}}",
+      "invalidEmail": "有効なメールアドレスを入力してください"
+    },
+    "complete": {
+      "title": "GTM診断完了！",
+      "thankYou": "ご回答ありがとうございました。<br>GTM診断レポートをメールでお送りします。",
+      "getYourReport": "GTM診断レポートをメール送信",
+      "backToTop": "トップに戻る",
+      "bookConsultation": "無料相談を予約",
+      "whatsNext": "次のステップ",
+      "downloadReportDesc": "受信したGTM診断レポートをチェック",
+      "reviewResults": "GTM成熟度レベルと優先アクションを確認",
+      "scheduleConsultation": "GTM対策の無料相談を予約"
+    },
+    "success": {
+      "title": "レポート送信成功！",
+      "description": "あなた専用のGTMアセスメントレポートがメールアドレスに送信されました。",
+      "backToTop": "トップに戻る",
+      "bookConsultation": "無料相談を予約",
+      "whatsNext": "次のステップ",
+      "checkEmail": "詳細なアセスメントレポートをメールで確認してください",
+      "reviewResults": "GTM成熟度スコアと推奨事項を確認してください",
+      "scheduleConsultation": "実装について相談するために面談を予約してください"
+    },
+    "question": {
+      "questionOf": "質問 {{current}} / {{total}}",
+      "back": "戻る",
+      "next": "次へ"
+    },
+    "challenges": {
+      "title": "GTMが失敗する理由",
+      "subtitle": "あなたの組織に当てはまる課題を、最低1つ選択してください。",
+      "back": "戻る",
+      "continue": "続行",
+      "selectionSummary": "{{count}}/{{max}}個の課題が選択されました",
+      "maximumReached": "最大数に達しました"
+    },
+    "questionnaire": {
+      "pleaseAnswer": "回答してください"
+    },
+    "feedback": {
+      "excellentPerformance": "優秀なパフォーマンス！",
+      "allCategoriesScoredWell": "すべてのカテゴリで良好なスコアです。重要な改善が必要な領域はありません。",
+      "recommendedAction": "推奨アクション：",
+      "nextSteps": "次のステップ",
+      "focusOnImprovements": "★1と★2でマークされた領域に焦点を当てて、GTM戦略への最大の影響を得てください。",
+      "nextStepsDescription": "まず高優先度の項目に焦点を当ててください。具体的なタイムラインと測定可能な結果を持つアクションプランを作成してください。",
+      "highPriority": "高優先度",
+      "mediumPriority": "中優先度",
+      "lowPriority": "低優先度"
+    },
+    "language": {
+      "changeTitle": "言語を変更",
+      "changeMessage": "言語を変更すると、現在の進捗が失われます。続行してもよろしいですか？",
+      "cancel": "キャンセル",
+      "continue": "続行"
+    },
+    "actions": {
+      "highPriority": [
+        "社内で選ばれる理由を全員で共有",
+        "改善サイクルの可視化",
+        "営業プロセスの自動化強化"
+      ],
+      "mediumPriority": [
+        "営業プロセスの自動化強化",
+        "顧客ターゲットの定期レビュー",
+        "データ分析の改善"
+      ]
+    },
+    "summary": {
+      "keyFocusAreas": "市場分析、営業・マーケティング統合",
+      "strengthsToLeverage": "データ分析力、営業チームの連携",
+      "recommendedTopics": "社内認識統一、改善サイクルの最適化"
+    }
+  },
+  "registration": {
+    "title": "ユーザー登録",
+    "subtitle": "GTMアセスメントにアクセスするために登録を完了してください。",
+    "lastName": "姓",
+    "lastNamePlaceholder": "姓を入力してください",
+    "lastNameRequired": "姓は必須です",
+    "lastNameInvalid": "姓はラテン文字と日本語文字のみを含む必要があります（2〜50文字）",
+    "firstName": "名",
+    "firstNamePlaceholder": "名を入力してください",
+    "firstNameRequired": "名は必須です",
+    "firstNameInvalid": "名はラテン文字と日本語文字のみを含む必要があります（2〜50文字）",
+    "email": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "emailRequired": "メールアドレスは必須です",
+    "emailInvalid": "有効なメールアドレスを入力してください",
+    "emailBlocked": "無料メールドメインは使用できません。会社のメールアドレスを使用してください。",
+    "company": "会社名",
+    "companyPlaceholder": "会社名を入力してください",
+    "companyRequired": "会社名は必須です",
+    "companyMinLength": "会社名は2文字以上である必要があります",
+    "companyMaxLength": "会社名は100文字未満である必要があります",
+    "revenueRange": "売上規模",
+    "revenueRequired": "売上規模は必須です",
+    "revenueOptions": {
+      "smb": "SMB（中小企業）",
+      "midmarket": "ミッドマーケット",
+      "enterprise": "エンタープライズ"
+    },
+    "jobTitle": "役職",
+    "jobTitleRequired": "役職は必須です",
+    "jobTitleOptions": {
+      "staff": "担当者 / Staff",
+      "manager": "課長 / Manager",
+      "director": "部長 / Director",
+      "vp": "本部長・役員クラス / VP",
+      "cxo": "経営層（CxO, CEO, COO, CFO, CMOなど） / CxO / Executive"
+    },
+    "department": "部署",
+    "departmentRequired": "部署は必須です",
+    "departmentOptions": {
+      "sales": "営業部門 / Sales Department",
+      "marketing": "マーケティング部門 / Marketing Department",
+      "business": "事業開発部門 / Business Development Department",
+      "planning": "経営企画部門 / Corporate Planning Department",
+      "other": "その他 / Other"
+    },
+    "consentText": "利用規約およびプライバシーポリシーに同意し、当社からの最新情報やご連絡を受け取ることに同意します。",
+    "consentRequired": "続行するにはこのボックスにチェックを入れてください",
+    "register": "登録",
+    "registering": "登録中...",
+    "success": "登録完了！",
+    "successMessage": "登録ありがとうございます！GTMアセスメントに進むことができます。",
+    "proceedToAssessment": "アセスメントに進む"
+  },
+  "radarChart": {
+    "score": "スコア",
+    "assessmentResults": "アセスメント結果",
+    "overallScore": "総合スコア:",
+    "strong": "強い",
+    "moderate": "中程度",
+    "weak": "弱い"
+  },
+  "move": {
+    "questions": {
+      "market": {
+        "q1": "明確に定義された理想顧客プロファイル（ICP）と具体的な基準をお持ちですか？",
+        "q2": "市場規模、成長トレンド、競合ポジショニングを定期的に分析していますか？"
+      },
+      "operations": {
+        "q1": "営業、マーケティング、カスタマーサービスが効果的に連携していますか？",
+        "q2": "部門間のKPIが統一され、共通の目標に向かって進んでいますか？"
+      },
+      "velocity": {
+        "q1": "リードから商談、商談サイクル時間などの主要な速度指標を追跡していますか？",
+        "q2": "予測可能な収益成長のために営業とマーケティングのプロセスが最適化されていますか？"
+      },
+      "expansion": {
+        "q1": "既存顧客向けのアップセリング/クロスセリング戦略を実装していますか？",
+        "q2": "新しい市場やチャネルへの拡大計画をお持ちですか？"
+      }
+    }
+  },
+  "5w1h": {
+    "questions": {
+      "who": {
+        "q1": "顧客の主要課題を定量的に把握できていますか？"
+      },
+      "where": {
+        "q1": "市場セグメントの優先順位を明確にしていますか？"
+      },
+      "what": {
+        "q1": "提供価値を顧客成果（売上やコスト削減など）に結びつけていますか？"
+      },
+      "why": {
+        "q1": "なぜ自社が選ばれるのか、社内で共通認識を持っていますか？"
+      },
+      "how": {
+        "q1": "営業・マーケティングのプロセスは一貫して設計されていますか？"
+      },
+      "when": {
+        "q1": "KPIに基づいた進捗管理や改善を定期的に行っていますか？"
+      }
+    }
+  },
+  "gtmChallenges": {
+    "challenge1": "部門間が分断されており、共通KPIが存在しない",
+    "challenge2": "収益やパイプラインの予測精度が低い",
+    "challenge3": "差別化が不十分で、値引きや機能比較に頼っている",
+    "challenge4": "顧客ROIや成果を示せず、更新や拡張に苦戦している",
+    "challenge5": "商談管理や進捗が属人的で、再現性がない",
+    "challenge6": "新規獲得依存で、既存顧客からの売上が伸びない",
+    "challenge7": "成功事例や学びが社内で共有されず、再現性が欠けている",
+    "challenge8": "施策が短期的/単発的で、改善のサイクルが回らない",
+    "challenge9": "競合に市場シェアを奪われている/追従しているだけ",
+    "challenge10": "新市場や新チャネル進出の準備不足で、成長が止まっている",
+    "challenge11": "事業スケールの壁に直面し、次の成長ドライバーが不明確",
+    "challenge12": "経営層と現場の戦略認識にギャップがある"
+  },
+  "pdf": {
+    "title": "GTM ASSESSMENT REPORT",
+    "subtitle": "ゴー・トゥ・マーケット戦略分析",
+    "userDetails": {
+      "date": "日付",
+      "name": "お名前",
+      "company": "会社名",
+      "email": "メール",
+      "department": "部署",
+      "jobTitle": "役職",
+      "revenueRange": "売上規模"
+    },
+    "revenueRange": {
+      "SMB": "SMB（中小企業）",
+      "Mid-market": "ミッドマーケット",
+      "Enterprise": "エンタープライズ",
+      "Startup": "スタートアップ"
+    },
+    "jobTitle": {
+      "Staff": "スタッフ",
+      "Manager": "マネージャー",
+      "Director": "ディレクター",
+      "VP": "VP",
+      "CxO / Executive": "CxO / エグゼクティブ"
+    },
+    "department": {
+      "Sales": "営業部",
+      "Marketing": "マーケティング部",
+      "Business Development": "事業開発部",
+      "Corporate Planning": "企画部",
+      "Other": "その他"
+    },
+    "categories": {
+      "market": "市場分析",
+      "operations": "オペレーション",
+      "velocity": "ベロシティ",
+      "expansion": "拡大",
+      "who": "Who（市場・顧客理解）",
+      "where": "Where（ターゲティング・ポジショニング）",
+      "what": "What（提供価値・メッセージング）",
+      "why": "Why（選ばれる理由・差別化）",
+      "how": "How（チャネル・営業プロセス）",
+      "when": "When（改善サイクル・プロセス運用）"
+    },
+    "actionPlans": {
+      "who": "明確なターゲット市場の定義と顧客セグメンテーション",
+      "where": "市場ポジショニング戦略の再構築",
+      "what": "価値提案の検証と差別化戦略の強化",
+      "why": "競合優位性の明確化と戦略的ポジショニング",
+      "how": "販売チャネルの最適化とプロセス改善",
+      "when": "実行スケジュールの最適化とリソース配分",
+      "market": "明確なターゲット市場の定義と顧客セグメンテーション",
+      "operations": "オペレーションプロセスの効率化と自動化の実装",
+      "velocity": "実行タイムラインとリソース配分の加速",
+      "expansion": "明確な拡大ロードマップとスケーリング戦略の開発",
+      "urgent": "緊急",
+      "improve": "改善",
+      "priorityActions": "優先アクション",
+      "highPriority": "高優先度",
+      "mediumPriority": "中優先度",
+      "fallback1": "パフォーマンス追跡とKPI監視の実装",
+      "fallback2": "定期的なレビューサイクルと継続的改善の確立"
+    },
+    "scores": {
+      "overallScore": "Overall Score",
+      "grade": "グレード",
+      "strong": "強い",
+      "moderate": "中程度",
+      "weak": "弱い"
+    },
+    "executiveSummary": {
+      "title": "Category Results",
+      "overview": "概要",
+      "keyFindings": "主要な発見",
+      "recommendations": "推奨事項",
+      "nextSteps": "次のステップ"
+    },
+    "page2": {
+      "title": "GTM ASSESSMENT REPORT",
+      "subtitle": "戦略的推奨事項と実装ガイド",
+      "performanceBanner": {
+        "excellent": "優秀なパフォーマンス！",
+        "good": "良好なパフォーマンス",
+        "needsImprovement": "改善が必要",
+        "description": "あなたのGTM戦略は強固な基盤を示しており、最適化の余地があります。",
+        "subDescription": "ハイライトされた領域に焦点を当てて、市場への影響を最大化してください。"
+      },
+      "actionPlans": {
+        "title": "アクションプラン",
+        "subtitle": "アセスメント結果に基づく戦略的イニシアチブ",
+        "maturity": "成熟度レベル",
+        "developing": "発展中",
+        "basic": "基本"
+      },
+      "assessmentSummary": {
+        "title": "アセスメントサマリー",
+        "maturityLevels": "成熟度レベル"
+      },
+      "nextActions": {
+        "title": "次のアクション",
+        "highPriority": "高優先度",
+        "mediumPriority": "中優先度",
+        "timeline": "タイムライン",
+        "immediate": "即座",
+        "shortTerm": "短期",
+        "longTerm": "長期"
+      },
+      "implementation": {
+        "title": "実装ガイダンス",
+        "quickWins": "クイックウィン",
+        "quickWinsDesc": "30日以内に実装できる即座のアクション",
+        "strategicInitiatives": "戦略的イニシアチブ",
+        "strategicInitiativesDesc": "3〜6ヶ月を要する中期プロジェクト",
+        "longTermGoals": "長期目標",
+        "longTermGoalsDesc": "6ヶ月以上を要する包括的変更"
+      }
+    },
+    "cta": {
+      "title": "GTM戦略を変革する準備はできていますか？",
+      "description": "私たちのGTM専門家チームは、これらの推奨事項の実装と市場参入の成功を加速するお手伝いをする準備ができています。",
+      "contact": "メール: contact@company.com | 電話: +1 (555) 123-4567 | ウェブサイト: www.company.com/consultation"
+    },
+    "footer": {
+      "pageOf": "{{total}}ページ中{{current}}ページ目",
+      "reportGenerated": "レポート生成日: {{date}}"
+    },
+    "summary": {
+      "title": "評価結果（サマリー）",
+      "category": "Category",
+      "score": "Score",
+      "grade": "Grade"
+    },
+    "lowScore": {
+      "title": "Individual Feedback",
+      "recommendationLabel": "推奨事項: "
+    },
+    "companySize": {
+      "explanationTitle": "GTM Explanation by Company Size",
+      "adviceTitleWithGrade": "GTM Maturity Assessment by Grade"
+    },
+    "challenges": {
+      "title": "GTM Challenges"
+    },
+    "companySizeAdvice": {
+      "startup": {
+        "title": "スタートアップGTM戦略",
+        "overview": "スタートアップとして、GTM戦略は迅速な検証、顧客発見、スケーラブルな成長基盤に焦点を当てる必要があります。",
+        "keyAreas": [
+          "プロダクト・マーケット・フィット検証",
+          "顧客発見とセグメンテーション",
+          "リーンマーケティング・セールスプロセス",
+          "資金調達とリソース最適化"
+        ],
+        "priorities": [
+          "コアバリュープロポジションの検証",
+          "最小実行可能セールスプロセスの構築",
+          "顧客フィードバックループの確立",
+          "スケーリングフェーズへの準備"
+        ],
+        "phases": {
+          "phase1": {
+            "title": "基盤フェーズ（0〜6ヶ月）",
+            "description": "コアGTM基盤の確立とマーケットフィットの検証"
+          },
+          "phase2": {
+            "title": "成長フェーズ（6〜18ヶ月）",
+            "description": "実証済みプロセスのスケールと市場リーチの拡大"
+          },
+          "phase3": {
+            "title": "最適化フェーズ（18ヶ月以上）",
+            "description": "持続可能な成長のための精緻化と最適化"
+          }
+        },
+        "milestones": [
+          "最初の10人の有料顧客",
+          "プロダクト・マーケット・フィット検証",
+          "再現可能なセールスプロセス",
+          "損益分岐点",
+          "シリーズA準備完了"
+        ]
+      },
+      "smb": {
+        "title": "SMB GTM戦略",
+        "overview": "中小企業では、効率的なプロセス、明確な差別化、持続可能な成長に焦点を当てます。",
+        "keyAreas": [
+          "プロセス標準化",
+          "市場差別化",
+          "顧客維持",
+          "オペレーショナル効率"
+        ],
+        "priorities": [
+          "セールスプロセスの標準化",
+          "明確なバリュープロポジションの開発",
+          "顧客体験の改善",
+          "リソース配分の最適化"
+        ]
+      },
+      "midmarket": {
+        "title": "ミッドマーケットGTM戦略",
+        "overview": "ミッドマーケット企業は、成長とオペレーショナルエクセレンス、市場拡大のバランスを取る必要があります。",
+        "keyAreas": [
+          "市場拡大",
+          "プロセス最適化",
+          "チーム開発",
+          "テクノロジー統合"
+        ],
+        "priorities": [
+          "新しい市場セグメントへの拡大",
+          "専門チームの開発",
+          "高度なツールの実装",
+          "戦略的パートナーシップの構築"
+        ]
+      },
+      "enterprise": {
+        "title": "エンタープライズGTM戦略",
+        "overview": "エンタープライズレベルのGTMには、洗練された戦略、グローバルリーチ、複雑なステークホルダー管理が必要です。",
+        "keyAreas": [
+          "グローバル市場戦略",
+          "複雑なセールスプロセス",
+          "ステークホルダー管理",
+          "高度なアナリティクス"
+        ],
+        "priorities": [
+          "グローバル市場戦略の開発",
+          "エンタープライズセールスプロセスの実装",
+          "戦略的パートナーシップの構築",
+          "高度なパフォーマンスアナリティクス"
+        ]
+      }
+    },
+    "nextActions": {
+      "startup": [
+        {
+          "phase": "基盤フェーズ",
+          "title": "プロダクト・マーケット・フィットの検証",
+          "description": "顧客インタビューを実施し、コアバリュープロポジションを検証",
+          "timeline": "1〜3ヶ月",
+          "priority": "高",
+          "steps": [
+            "50人以上の潜在顧客にインタビュー",
+            "顧客の痛みのポイントとニーズを分析",
+            "フィードバックに基づいてバリュープロポジションを精緻化",
+            "ターゲット市場で価格モデルをテスト"
+          ]
+        },
+        {
+          "phase": "基盤フェーズ",
+          "title": "MVPセールスプロセスの構築",
+          "description": "初期顧客向けのシンプルで再現可能なセールスプロセスを作成",
+          "timeline": "2〜4ヶ月",
+          "priority": "高",
+          "steps": [
+            "理想顧客プロファイル（ICP）を定義",
+            "基本的なセールス資料とスクリプトを作成",
+            "シンプルなCRMシステムを実装",
+            "初期セールスチームをトレーニング"
+          ]
+        },
+        {
+          "phase": "成長フェーズ",
+          "title": "マーケティングチャネルのスケール",
+          "description": "顧客獲得のための効果的なマーケティングチャネルをテストし、スケール",
+          "timeline": "3〜6ヶ月",
+          "priority": "中",
+          "steps": [
+            "複数のマーケティングチャネルをテスト",
+            "チャネルパフォーマンスとROIを測定",
+            "成功したチャネルに集中投資",
+            "リード育成プロセスの自動化"
+          ]
+        }
+      ],
+      "smb": [
+        {
+          "title": "セールスプロセスの標準化",
+          "description": "組織全体で一貫した再現可能なセールスプロセスを作成",
+          "timeline": "2〜3ヶ月",
+          "priority": "高"
+        },
+        {
+          "title": "明確なバリュープロポジションの開発",
+          "description": "独自の価値と競争優位性を明確に表現",
+          "timeline": "1〜2ヶ月",
+          "priority": "高"
+        },
+        {
+          "title": "顧客体験の改善",
+          "description": "顧客オンボーディングとサポートプロセスの強化",
+          "timeline": "2〜4ヶ月",
+          "priority": "中"
+        }
+      ],
+      "midmarket": [
+        {
+          "title": "市場セグメントの拡大",
+          "description": "成長のための新しい市場セグメントを特定し、参入",
+          "timeline": "3〜6ヶ月",
+          "priority": "高"
+        },
+        {
+          "title": "専門チームの開発",
+          "description": "異なる市場セグメント向けの専門チームを構築",
+          "timeline": "4〜8ヶ月",
+          "priority": "中"
+        },
+        {
+          "title": "高度なツールの実装",
+          "description": "洗練されたCRMとマーケティングオートメーションツールを展開",
+          "timeline": "2〜4ヶ月",
+          "priority": "中"
+        }
+      ],
+      "enterprise": [
+        {
+          "title": "グローバル戦略の開発",
+          "description": "包括的なグローバル市場参入戦略を作成",
+          "timeline": "6〜12ヶ月",
+          "priority": "高"
+        },
+        {
+          "title": "エンタープライズセールスの実装",
+          "description": "複雑なマルチステークホルダーセールスプロセスを展開",
+          "timeline": "4〜8ヶ月",
+          "priority": "高"
+        },
+        {
+          "title": "戦略的パートナーシップの構築",
+          "description": "市場拡大のための主要パートナーシップを確立",
+          "timeline": "3〜9ヶ月",
+          "priority": "中"
+        }
+      ],
+      "companySizeHeaders": {
+        "smb": "SMB（小規模・成長中）– 1,000万ドル未満",
+        "mid-market": "ミッドマーケット（スケーリング）– 1,000万ドル〜10億ドル",
+        "enterprise": "エンタープライズ（グローバル・大規模）– 10億ドル超"
+      },
+      "gradeTransitions": {
+        "D": {
+          "transition": "D -> C",
+          "description": "(Foundation → Developing)"
+        },
+        "C": {
+          "transition": "C -> B",
+          "description": "(Developing → Competent)"
+        },
+        "B": {
+          "transition": "B -> A",
+          "description": "(Competent → Advanced)"
+        },
+        "A": {
+          "transition": "A -> S",
+          "description": "(Advanced → Excellence)"
+        },
+        "S": {
+          "transition": "S",
+          "description": "(Excellence – Continuous Improvement)"
+        }
+      }
+    }
+  }
+}

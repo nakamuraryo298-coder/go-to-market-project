@@ -1,0 +1,58 @@
+RewriteEngine On
+
+# ==============================
+# SECURITY HEADERS
+# ==============================
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://www.google.com https://www.gstatic.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdn.jsdelivr.net; img-src 'self' data: https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://www.google.com https://recaptcha.google.com; font-src 'self' data:;"
+</IfModule>
+
+# ==============================
+# Protect sensitive env file
+# ==============================
+<Files ".env">
+    Require all denied
+</Files>
+
+# ==============================
+# Protect operational endpoints
+# ==============================
+RewriteRule ^(?:test/)?adminer\.php$ - [F,L,NC]
+RewriteRule ^(?:test/)?api/jobs(?:/.*)?$ - [F,L,NC]
+
+
+# ==============================
+# 1. Skip existing files/folders
+# ==============================
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# ==============================
+# 2. Remove index.php from URL
+# ==============================
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteRule ^index\.php(.*)$ $1 [R=301,L]
+
+# ==============================
+# 3. Redirect .php URLs → clean URLs
+# ==============================
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# ==============================
+# 4. Internally map clean URL → .php
+# ==============================
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# ==============================
+# 5. Language routing
+# ==============================
+RewriteRule ^(en|ja)?/?(.*)$ index.php?lang=$1&page=$2 [L,QSA]

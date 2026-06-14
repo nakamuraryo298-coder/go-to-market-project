@@ -1,0 +1,205 @@
+{
+  "title": "Go-to-Market Consulting Services | Catalyst Inc.",
+  "seo_description":"Expert Go-to-Market strategy consulting. Proven 6-step GTM framework to launch products and accelerate revenue growth. Free consultation available.",
+  "home": "Home",
+  "our_services":"Our Services",
+  "free_gtm_assessment":"Free GTM Assessment",
+  "contact_us":"Contact Us",
+  "footerContent":{
+    "all_right_reserved":"All Rights Reserved",
+    "sitemap":"Sitemap",
+    "privacy":"Privacy",
+    "terms_and_conditions":"Terms & Conditions",
+    "gtm_consulting_service":"GTM consulting service "
+  },
+  "strategies": {
+    "title_main": "What is go to",
+    "title_highlight": "market strategies",
+    "study_title": "According to a recent study ",
+    "study_title_1":"by dervix(2025)",
+    "image_alt": "Go-To-Market戦略グラフ",
+    "source": "Source: “25 Statistics to Influence Your 2025 GTM Plan” by Devrix",
+    "percentage_text_1":"of U.S. companies have already defined ",
+    "percentage_text_2": "a Go-to-Market (GTM) strategy"
+  },
+  "move": {
+    "questions": {
+      "market": {
+        "q1": "Do you have a clearly defined Ideal Customer Profile (ICP) with specific criteria?",
+        "q2": "Do you regularly analyze market size, growth trends, and competitive positioning?"
+      },
+      "operations": {
+        "q1": "Are sales, marketing, and customer service working together effectively?",
+        "q2": "Are cross-departmental KPIs unified, and are we moving toward shared goals?"
+      },
+      "velocity": {
+        "q1": "Do you track key velocity metrics like lead-to-opportunity and deal cycle times?",
+        "q2": "Are your sales and marketing processes optimized for predictable revenue growth?"
+      },
+      "expansion": {
+        "q1": "Are you implementing upselling/cross-selling strategies for existing customers?",
+        "q2": "Do you have plans to expand into new markets or channels?"
+      }
+    }
+  },
+  "challenges": {
+    "title": "common",
+    "titleHighlight": " business challenges",
+    "items": [
+      {
+        "title": "Understand the market and customer",
+        "problem1": "Weak understanding of market & positioning",
+        "problem2": "Targeting based on internal assumptions"
+      },
+      {
+        "title": "Define differentiation and messaging",
+        "problem1": "Poor differentiation leads to price battles",
+        "problem2": "No lasting impression of unique strengths"
+      },
+      {
+        "title": "Clarify targeting and positioning",
+        "problem1": "Lack of focus spreads resources thin",
+        "problem2": "No clear path to win based on strengths"
+      },
+      {
+        "title": "Define differentiation and messaging",
+        "problem1": "Poor differentiation leads to price battles",
+        "problem2": "No lasting impression of unique strengths"
+      },
+      {
+        "title": "Design the offering & value proposition",
+        "problem1": "Solutions misaligned with customer needs",
+        "problem2": "Messaging fixates on features, not value"
+      },
+      {
+        "title": "Execute, measure and optimize",
+        "problem1": "Short-term chasing with no strategic tuning",
+        "problem2": "Sales becomes transactional, not strategic"
+      }
+    ]
+  },
+  "assessment": {
+    "title": "GTM Assessment",
+    "subtitle": "Please answer the questions to evaluate your Go-To-Market strategy.",
+    "progress": "Progress",
+    "completed": "Completed",
+    "questions": "Questions",
+    "rate": "Rate from 1–10",
+    "weak": "Weak",
+    "moderate": "Moderate",
+    "strong": "Strong",
+    "processing": "Processing...",
+    "generateReport": "Generate Report",
+    "startOver": "Start Over",
+    "getReport": "Send GTM Assessment Report via Email",
+    "generating": "Generating...",
+    "assessmentComplete": "Assessment Complete!",
+    "overallScore": "Overall Score",
+    "grade": "Grade",
+    "chartReady": "Chart Ready for PDF",
+    "getYourReport": "Send GTM Assessment Report via Email",
+    "emailDescription": "Please enter your email address to receive a detailed assessment report.",
+    "emailDisabled": "Email functionality is currently disabled. You can download the PDF directly.",
+    "downloadPdf": "Download PDF",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "sending": "Sending...",
+    "sendReport": "Send Report",
+    "reportSent": "Report sent successfully!",
+    "checkInbox": "Please check your email for the detailed assessment report.",
+    "startNewAssessment": "Start New Assessment",
+    "results": "Results",
+    "report": "Report",
+    "email": {
+      "success": "The assessment report has been sent!",
+      "error": "Failed to send the email. Please try again.",
+      "pdfUploadError": "Failed to upload PDF: {{message}}",
+      "invalidEmail": "Please enter a valid email address"
+    },
+    "complete": {
+      "title": "Assessment Complete!",
+      "thankYou": "Thank you for your responses.<br>Your GTM Assessment Report will be sent to your email shortly.",
+      "getYourReport": "Send GTM Assessment Report via Email",
+      "backToTop": "Back to Top",
+      "bookConsultation": "Book a Free Consultation",
+      "whatsNext": "What’s Next",
+      "downloadReportDesc": "Check Your GTM Assessment Report",
+      "reviewResults": "Check your GTM maturity level and priority actions",
+      "scheduleConsultation": "Book a free consultation to discuss your GTM strategy"
+    },
+    "success": {
+      "title": "Report Sent Successfully!",
+      "description": "Your personalized GTM assessment report has been sent to your email address.",
+      "backToTop": "Back to Top",
+      "bookConsultation": "Book a Free Consultation",
+      "whatsNext": "What’s Next",
+      "checkEmail": "Check your email for the detailed assessment report",
+      "reviewResults": "Review your GTM maturity score and recommendations",
+      "scheduleConsultation": "Schedule a meeting to discuss implementation"
+    },
+    "question": {
+      "questionOf": "Question {{current}} / {{total}}",
+      "back": "Back",
+      "next": "Next"
+    },
+    "challenges": {
+      "title": "Why GTM Fails",
+      "subtitle": "Please select at least one challenge that applies to your organization.",
+      "back": "Back",
+      "continue": "Continue",
+      "selectionSummary": "{{count}}/{{max}} challenges selected",
+      "maximumReached": "Maximum number reached"
+    },
+    "questionnaire": {
+      "pleaseAnswer": "Please provide an answer"
+    },
+    "feedback": {
+      "excellentPerformance": "Excellent Performance!",
+      "allCategoriesScoredWell": "You scored well across all categories. There are no critical areas requiring improvement.",
+      "recommendedAction": "Recommended Action:",
+      "nextSteps": "Next Steps",
+      "focusOnImprovements": "Focus on areas marked with ★1 and ★2 to achieve the greatest impact on your GTM strategy.",
+      "nextStepsDescription": "Start by focusing on high-priority items. Create an action plan with a clear timeline and measurable outcomes.",
+      "highPriority": "High Priority",
+      "mediumPriority": "Medium Priority",
+      "lowPriority": "Low Priority"
+    },
+    "language": {
+      "changeTitle": "Change Language",
+      "changeMessage": "Changing the language will reset your current progress. Do you want to continue?",
+      "cancel": "Cancel",
+      "continue": "Continue"
+    },
+    "actions": {
+      "highPriority": [
+        "Align internally on why customers choose your company",
+        "Visualize the improvement cycle",
+        "Enhance sales process automation"
+      ],
+      "mediumPriority": [
+        "Enhance sales process automation",
+        "Regularly review target customers",
+        "Improve data analysis"
+      ]
+    },
+    "summary": {
+      "keyFocusAreas": "Market analysis, sales and marketing alignment",
+      "strengthsToLeverage": "Data analytics capabilities, sales team collaboration",
+      "recommendedTopics": "Internal alignment, optimization of improvement cycles"
+    }
+  },
+  "gtmChallenges": {
+    "challenge1": "Functions are siloed, with no shared KPIs",
+    "challenge2": "Revenue and pipeline forecasts are unreliable",
+    "challenge3": "Differentiation is weak, competing mainly on price or features",
+    "challenge4": "Customer ROI and outcomes are unclear, making renewals and expansion difficult",
+    "challenge5": "Deal management and tracking are inconsistent, with low repeatability",
+    "challenge6": "Over-reliance on new customer acquisition; existing account growth is stagnant",
+    "challenge7": "Success stories and learnings are not shared, reducing organizational repeatability",
+    "challenge8": "Initiatives are ad-hoc and short-term, with no continuous improvement cycle",
+    "challenge9": "Market share is being lost to competitors",
+    "challenge10": "Expansion into new markets or channels lacks preparation and stalls",
+    "challenge11": "The business has hit a scaling wall, with no clear next growth driver",
+    "challenge12": "Gap between leadership's strategy and frontline execution"
+  }
+}

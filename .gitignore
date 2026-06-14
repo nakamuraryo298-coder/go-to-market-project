@@ -1,0 +1,37 @@
+# ===== Secrets / environment =====
+.env
+.env.*
+!.env.example
+
+# ===== Local staging/test duplicate (own secrets, vendor, customer PDFs) =====
+test/
+
+# ===== PHP dependencies (restore with: composer install) =====
+vendor/
+composer.phar
+
+# ===== Runtime / generated data (may contain customer PII) =====
+api/uploads/
+uploads/
+api/jobs/*
+!api/jobs/.gitkeep
+*.log
+
+# ===== Database / admin tools =====
+adminer.php
+**/adminer.php
+
+# ===== OS / editor junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# ===== Node (in case a build is added later) =====
+node_modules/
+
+# ===== Claude Code local tooling/config =====
+.claude/
