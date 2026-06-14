@@ -10,15 +10,17 @@ $pageName       =   getLastUriSegment($currentUrl);;
             <?php if (!empty($isHomeV2)): /* Homepage single-row header bar — Figma 案02_ver02 */ ?>
             <header class="home-v2-header">
                 <div class="home-v2-header__bar">
-                    <h1 class="home-v2-header__logo"><a href="<?= BASE_URL;?>/en/"><img src="<?= BASE_URL;?>/assets/images/logo.svg" alt="GO-TO-MARKET STRATEGY"></a></h1>
-                    <nav class="home-v2-header__nav">
-                        <ul>
-                            <li><a href="<?= BASE_URL;?>/en/">Home</a></li>
-                            <li><a href="<?= BASE_URL;?>/en/#service">Our Services</a></li>
-                            <li><a href="<?= BASE_URL;?>/en/#free">Free GTM Assessment</a></li>
-                            <li><a href="<?= BASE_URL;?>/en/#case">Case Study</a></li>
-                        </ul>
-                    </nav>
+                    <div class="home-v2-header__left">
+                        <h1 class="home-v2-header__logo"><a href="<?= BASE_URL;?>/en/"><img src="<?= BASE_URL;?>/assets/images/logo.svg" alt="GO-TO-MARKET STRATEGY"></a></h1>
+                        <nav class="home-v2-header__nav">
+                            <ul>
+                                <li><a href="<?= BASE_URL;?>/en/">Home</a></li>
+                                <li><a href="<?= BASE_URL;?>/en/#service">Our Services</a></li>
+                                <li><a href="<?= BASE_URL;?>/en/#free">Free GTM Assessment</a></li>
+                                <li><a href="<?= BASE_URL;?>/en/#case">Case Study</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                     <div class="home-v2-header__right">
                         <div class="home-v2-header__lang">
                             <a href="javascript:void(0)" class="is-active" aria-current="page">EN</a>

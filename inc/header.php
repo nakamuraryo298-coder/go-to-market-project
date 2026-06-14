@@ -10,15 +10,17 @@ $pageName       =   getLastUriSegment($currentUrl);
             <?php if (!empty($isHomeV2)): /* Homepage single-row header bar — Figma 案02_ver02 */ ?>
             <header class="home-v2-header">
                 <div class="home-v2-header__bar">
-                    <h1 class="home-v2-header__logo"><a href="<?= BASE_URL;?>"><img src="<?= asset('assets/images/logo.svg');?>" alt="GO-TO-MARKET STRATEGY"></a></h1>
-                    <nav class="home-v2-header__nav">
-                        <ul>
-                            <li><a href="<?= BASE_URL;?>">ホーム</a></li>
-                            <li><a href="<?= BASE_URL;?>/#service">サービス概要</a></li>
-                            <li><a href="<?= BASE_URL;?>/#free">GTM成熟度 無料診断</a></li>
-                            <li><a href="<?= BASE_URL;?>/#case">ケーススタディ</a></li>
-                        </ul>
-                    </nav>
+                    <div class="home-v2-header__left">
+                        <h1 class="home-v2-header__logo"><a href="<?= BASE_URL;?>"><img src="<?= asset('assets/images/logo.svg');?>" alt="GO-TO-MARKET STRATEGY"></a></h1>
+                        <nav class="home-v2-header__nav">
+                            <ul>
+                                <li><a href="<?= BASE_URL;?>">ホーム</a></li>
+                                <li><a href="<?= BASE_URL;?>/#service">サービス概要</a></li>
+                                <li><a href="<?= BASE_URL;?>/#free">GTM成熟度 無料診断</a></li>
+                                <li><a href="<?= BASE_URL;?>/#case">ケーススタディ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                     <div class="home-v2-header__right">
                         <div class="home-v2-header__lang">
                             <a href="/en/" onclick="clearAssessmentStorage()">EN</a>
