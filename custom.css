@@ -900,8 +900,8 @@ display: none;
    left = X/1440, top = Y/650, width = W/1440. */
 
 /* back layer — blobs + circles (z1) */
-.hl--blob-main   { left: 50.20%;  top: -5.22%;  width: 48.07%; z-index: 1; }
-.hl--blob-left   { left: -21.13%; top: 58.38%;  width: 30.08%; z-index: 1; transform: rotate(-9.08deg); }
+.hl--blob-main   { left: 48%;     top: -8%;     width: 50%;    z-index: 1; } /* re-derived from image (export bounds ≠ Figma) */
+.hl--blob-left   { left: -3%;     top: 60%;     width: 16%;    z-index: 1; } /* rotation baked into PNG */
 .hl--circle-1    { left: 9.19%;   top: 84.66%;  width: 5.47%;  z-index: 1; }
 .hl--circle-2    { left: 49.40%;  top: 8.85%;   width: 1.64%;  z-index: 1; }
 .hl--circle-3    { left: 77.54%;  top: 5.59%;   width: 3.11%;  z-index: 1; }
@@ -912,9 +912,10 @@ display: none;
 .hl--icon-coins  { left: 50.00%;  top: 25.33%;  width: 4.17%;  z-index: 2; opacity: .5; }
 .hl--icon-chart  { left: 94.23%;  top: 81.23%;  width: 4.17%;  z-index: 2; opacity: .5; }
 
-/* front layer — laptop, floating report, character (z3–5) */
-.hl--laptop      { left: 14.88%;  top: -26.71%; width: 92.47%; z-index: 3; }
-.hl--report-page { left: 42.63%;  top: 45.79%;  width: 11.54%; z-index: 4; }
+/* front layer — laptop, floating report, character (z3–5)
+   laptop/report re-derived from image (export bounds ≠ Figma); character is a clean @2x export */
+.hl--laptop      { left: 33%;     top: 3%;      width: 74%;    z-index: 3; }
+.hl--report-page { left: 39.5%;   top: 44%;     width: 13.7%;  z-index: 4; }
 .hl--character   { left: 87.29%;  top: 58.52%;  width: 6.53%;  z-index: 5; }
 
 /* callout — HTML text bubble (Figma 260.65×87.25 @ X1094.09 Y526.29) */
