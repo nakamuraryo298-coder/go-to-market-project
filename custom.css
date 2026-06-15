@@ -937,14 +937,21 @@ display: none;
     box-shadow: 0 0.4vw 1.1vw rgba(15, 23, 42, .18);
 }
 
-.hero-callout::before {            /* up-pointing tab on the top edge */
+/* up-pointing tab: a rotated navy square with white on its two top edges,
+   half-tucked under the box so the navy covers the box's top border
+   (no white seam where the tab meets the bubble) */
+.hero-callout::before,
+.hero-callout-en::before {
     content: "";
     position: absolute;
     left: 30%;
-    top: -0.5vw;
-    border-left: 0.6vw solid transparent;
-    border-right: 0.6vw solid transparent;
-    border-bottom: 0.6vw solid #1f5b9c;
+    top: -0.62vw;
+    width: 1.1vw;
+    height: 1.1vw;
+    background: #1f5b9c;
+    border-top: 0.14vw solid #fff;
+    border-left: 0.14vw solid #fff;
+    transform: rotate(45deg);
 }
 .hero-callout-en {
     left: 66.98%;
@@ -962,15 +969,7 @@ display: none;
     font-size: 1.25vw;               /* larger text that fills the box; scales with board */
     box-shadow: 0 0.4vw 1.1vw rgba(15, 23, 42, .18);              /* smaller text to fit the longer copy */
 }
-.hero-callout-en::before {
-    content: "";
-    position: absolute;
-    left: 30%;
-    top: -0.5vw;
-    border-left: 0.6vw solid transparent;
-    border-right: 0.6vw solid transparent;
-    border-bottom: 0.6vw solid #1f5b9c;
-}
+/* EN tab uses the combined ::before/::after rules above */
 
 .hero-v2__inner {
     position: absolute;
