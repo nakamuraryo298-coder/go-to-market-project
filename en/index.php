@@ -21,6 +21,7 @@ if (!empty($_SESSION['form_data'])) {
                 <section class="hero-v2">
                     <div class="hero-v2__board">
                         <img class="hl hl--blob-main"   src="<?= asset('assets/images/hero/blob-main.png'); ?>"   alt="" aria-hidden="true">
+                        <img class="hl hl--blob-sp"     src="<?= asset('assets/images/hero/blob-main-sp.png'); ?>" alt="" aria-hidden="true">
                         <img class="hl hl--blob-left"   src="<?= asset('assets/images/hero/blob-left.png'); ?>"   alt="" aria-hidden="true">
                         <img class="hl hl--circle-3"    src="<?= asset('assets/images/hero/circle-3.png'); ?>"    alt="" aria-hidden="true">
                         <img class="hl hl--circle-1"    src="<?= asset('assets/images/hero/circle-1.png'); ?>"    alt="" aria-hidden="true">
