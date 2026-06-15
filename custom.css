@@ -900,48 +900,48 @@ display: none;
    left = X/1440, top = Y/650, width = W/1440. */
 
 /* back layer — blobs + circles (z1) */
-.hl--blob-main   { left: 48%;     top: -2%;     width: 50%;    z-index: 1; } /* re-derived from image (export bounds ≠ Figma) */
-.hl--blob-left   { left: -4%;     top: 64%;     width: 12%;    z-index: 1; } /* rotation baked into PNG */
-.hl--circle-1    { left: 9.19%;   top: 84.66%;  width: 5.47%;  z-index: 1; }
-.hl--circle-2    { left: 49.40%;  top: 8.85%;   width: 1.64%;  z-index: 1; }
+.hl--blob-main   { left: 49%;     top: 0%;     width: 48%;    z-index: 1; } /* re-derived from image (export bounds ≠ Figma) */
+.hl--blob-left   { left: 0%;     top: 61%;     width: 12%;    z-index: 1; } /* rotation baked into PNG */
+.hl--circle-1    { left: 8.5%;   top: 85%;  width: 5.47%;  z-index: 1; }
+.hl--circle-2    { left: 48%;  top: 9%;   width: 1.64%;  z-index: 1; }
 .hl--circle-3    { left: 77.54%;  top: 5.59%;   width: 3.11%;  z-index: 1; }
-.hl--circle-solid{ left: 12.14%;  top: 83.32%;  width: 2.74%;  z-index: 1; }
+.hl--circle-solid{ left: 12%;  top: 84%;  width: 2.74%;  z-index: 1; }
 
 /* mid layer — icons (z2) */
 .hl--icon-network{ left: 66.47%;  top: 6.44%;   width: 4.17%;  z-index: 2; }
-.hl--icon-coins  { left: 50.00%;  top: 25.33%;  width: 4.17%;  z-index: 2; opacity: .5; }
-.hl--icon-chart  { left: 94.23%;  top: 81.23%;  width: 4.17%;  z-index: 2; opacity: .5; }
+.hl--icon-coins  { left: 49%;  top: 25%;  width: 4.17%;  z-index: 2; opacity: .5; }
+.hl--icon-chart  { left: 93.5%;  top: 81.23%;  width: 4.17%;  z-index: 2; opacity: .5; }
 
 /* front layer — laptop, floating report, character (z3–5)
    laptop/report re-derived from image (export bounds ≠ Figma); character is a clean @2x export */
-.hl--laptop      { left: 20%;     top: -5%;      width: 75%;    z-index: 3; }
-.hl--report-page { left: 39.5%;   top: 44%;     width: 13.7%;  z-index: 4; }
-.hl--character   { left: 87.29%;  top: 58.52%;  width: 6.53%;  z-index: 5; }
+.hl--laptop      { left: 14%;     top: 0cqb;    width: 85%;  z-index: 3; }
+.hl--report-page { left: 40.5%;   top: 43%;     width: 14.5%;  z-index: 4; }
+.hl--character   { left: 86.29%;  top: 58.52%;  width: 6.53%;  z-index: 10; }
 
 /* callout — HTML text bubble (Figma 260.65×87.25 @ X1094.09 Y526.29) */
 .hero-callout {
-    left: 75.98%;
-    top: 80.97%;
+    left: 74.98%;
+    top: 82%;
     width: 18.1%;
     z-index: 6;
     box-sizing: border-box;
     background: #1f5b9c;
     color: #fff;
     border-radius: 0.42vw;
-    padding: 0.7em 0.9em;
+    padding: 1em 1.05em;             /* taller box ≈ Figma 260×87 (≈3:1) */
     font-weight: 700;
     line-height: 1.45;
-    font-size: 1.04vw;                /* scales with the board at every width */
+    font-size: 1.25vw;               /* larger text that fills the box; scales with board */
     box-shadow: 0 0.4vw 1.1vw rgba(15, 23, 42, .18);
 }
 .hero-callout::before {            /* up-pointing tab on the top edge */
     content: "";
     position: absolute;
-    left: 14%;
-    top: -0.48vw;
-    border-left: 0.56vw solid transparent;
-    border-right: 0.56vw solid transparent;
-    border-bottom: 0.56vw solid #1f5b9c;
+    left: 30%;
+    top: -0.5vw;
+    border-left: 0.6vw solid transparent;
+    border-right: 0.6vw solid transparent;
+    border-bottom: 0.6vw solid #1f5b9c;
 }
 
 .hero-v2__inner {
@@ -956,25 +956,38 @@ display: none;
 .hero-v2__copy {
     position: absolute;
     left: 4.5%;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     width: 54%;                       /* no max-width: scales as a replica at every width */
     pointer-events: auto;
+}
+.hero-v2__quote {
+    display: inline-block;
+    margin-bottom: 0.69vw;
+    color: var(--hero-ink);
+    font-weight: 800;
+    line-height: 1.25;
+    font-size: 4.5vw;
 }
 .hero-v2__title {
     color: var(--hero-ink);
     font-weight: 800;
     line-height: 1.28;
     letter-spacing: -.01em;
-    font-size: 3.75vw;                /* 54px @1440, scales linearly with the board */
+    font-size: 2.8vw;                /* 54px @1440, scales linearly with the board */
 }
-.hero-v2__accent { color: var(--hero-accent); }
+.hero-v2__accent { 
+    color: var(--hero-accent); 
+    font-weight: 800;
+    line-height: 1.28;
+    letter-spacing: -.01em; 
+    font-size: 4.5vw; /* 108px @1440, scales linearly with the board */
+    }
 .hero-v2__lead {
-    margin-top: 1.39vw;
     color: #46566a;
     font-weight: 700;
-    line-height: 1.7;
-    font-size: 1.32vw;
+    line-height: 1.5;
+    font-size: 1.8vw;
 }
 .hero-v2__brk { display: inline; }
 
@@ -989,8 +1002,8 @@ display: none;
     color: #1a1a1a;
     font-weight: 800;
     line-height: 1.25;
-    font-size: 1.39vw;
-    padding: 1.11vw 2.08vw;
+    font-size: 1.3vw;
+    padding: 1.3vw 3.5vw;
     border-radius: 0.56vw;
     transition: background-color .2s ease;
 }
