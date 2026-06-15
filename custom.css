@@ -1063,8 +1063,9 @@ display: none;
         pointer-events: auto;
     }
     .hero-v2__copy { position: static; transform: none; width: 100%; max-width: none; }
-    .hero-v2__title  { font-size: 27px; line-height: 1.35; overflow-wrap: anywhere; }   /* break instead of overflowing */
-    .hero-v2__quote  { font-size: 35px; line-height: 1.25; margin-bottom: 4px; max-width: 100%; overflow-wrap: anywhere; }
+    .hero-v2__title  { font-size: 27px; line-height: 1.35; }
+    /* quote on its own line so の課題を、 stays together on the next line (no mid-phrase break) */
+    .hero-v2__quote  { font-size: 35px; line-height: 1.25; margin-bottom: 4px; display: block; }
     .hero-v2__accent { font-size: 37px; line-height: 1.3; }
     .hero-v2__lead   { font-size: 15px; line-height: 1.75; margin-top: 18px; }
     .hero-v2__brk    { display: inline; }   /* keep the designed line breaks on mobile (no mid-word wrap) */
