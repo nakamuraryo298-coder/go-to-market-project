@@ -49,6 +49,11 @@ if (!empty($_SESSION['form_data'])) {
                             </a>
                         </div>
                     </div>
+                    <!-- mobile-only CTA: shown after the images (text → images → CTA) -->
+                    <a href="#free" class="hero-v2__cta hero-v2__cta--sp">
+                        <span>無料で診断する（約3分で完了）</span>
+                        <svg class="hero-v2__cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
                 </section>
             </div>
         </div>
