@@ -927,6 +927,7 @@ display: none;
     box-sizing: border-box;
     background: #1f5b9c;
     color: #fff;
+    border: 0.14vw solid #fff;       /* white outline, as in the design */
     border-radius: 0.42vw;
     padding: 1em 1.05em;             /* taller box ≈ Figma 260×87 (≈3:1) */
     font-weight: 700;
@@ -934,7 +935,33 @@ display: none;
     font-size: 1.25vw;               /* larger text that fills the box; scales with board */
     box-shadow: 0 0.4vw 1.1vw rgba(15, 23, 42, .18);
 }
+
 .hero-callout::before {            /* up-pointing tab on the top edge */
+    content: "";
+    position: absolute;
+    left: 30%;
+    top: -0.5vw;
+    border-left: 0.6vw solid transparent;
+    border-right: 0.6vw solid transparent;
+    border-bottom: 0.6vw solid #1f5b9c;
+}
+.hero-callout-en {
+    left: 66.98%;
+    top: 82%;
+    z-index: 6;
+    box-sizing: border-box;
+    background: #1f5b9c;
+    color: #fff;
+    border: 0.14vw solid #fff;       /* white outline, as in the design */
+    border-radius: 0.42vw;
+    padding: 1em 1.05em;             /* taller box ≈ Figma 260×87 (≈3:1) */
+    padding-right: 5vw !important; /* extra padding on the right to accommodate the longer English copy */
+    font-weight: 700;
+    line-height: 1.45;
+    font-size: 1.25vw;               /* larger text that fills the box; scales with board */
+    box-shadow: 0 0.4vw 1.1vw rgba(15, 23, 42, .18);              /* smaller text to fit the longer copy */
+}
+.hero-callout-en::before {
     content: "";
     position: absolute;
     left: 30%;
@@ -987,7 +1014,7 @@ display: none;
     color: #46566a;
     font-weight: 700;
     line-height: 1.5;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
 }
 .hero-v2__brk { display: inline; }
 

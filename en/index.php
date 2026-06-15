@@ -32,7 +32,7 @@ if (!empty($_SESSION['form_data'])) {
                         <img class="hl hl--laptop"      src="<?= asset('assets/images/hero/laptop-en.png'); ?>"   alt="Sample of the GTM Maturity Assessment report" fetchpriority="high">
                         <img class="hl hl--report-page" src="<?= asset('assets/images/hero/report-page-en.png'); ?>" alt="" aria-hidden="true">
                         <img class="hl hl--character"   src="<?= asset('assets/images/hero/character.png'); ?>"   alt="" aria-hidden="true">
-                        <div class="hl hero-callout">Here&rsquo;s a sneak peek at part of the<br>report you&rsquo;ll actually receive!</div>
+                        <div class="hl hero-callout-en">Here&rsquo;s a sneak peek at part of the<br>report you&rsquo;ll actually receive!</div>
                     </div>
                     <div class="hero-v2__inner">
                         <div class="hero-v2__copy">
@@ -42,7 +42,7 @@ if (!empty($_SESSION['form_data'])) {
                                 in <span class="hero-v2__accent">just 3 minutes.</span>
                             </h1>
                             <p class="hero-v2__lead">
-                                Get a practical report highlighting improvement opportunities across market strategy, sales, and marketing.
+                                Get a practical report <br>highlighting improvement opportunities <br>across market strategy, sales, and marketing.
                             </p>
                             <a href="#free" class="hero-v2__cta hero-v2__cta--en">
                                 <span>START FREE ASSESSMENT<small>(TAKES ABOUT 3 MINUTE)</small></span>
