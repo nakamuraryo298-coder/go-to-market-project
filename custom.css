@@ -1065,9 +1065,10 @@ display: none;
     .hero-v2 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         background: #f0f4fb;
         padding: 14px 0;
+        padding-bottom: 30%;
         overflow: hidden;
     }
 
