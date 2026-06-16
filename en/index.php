@@ -18,7 +18,7 @@ if (!empty($_SESSION['form_data'])) {
 ?>
             <!-- ===== Top view slider: slide 1 = redesign (Figma 案02_ver02), slides 2-3 = existing ===== -->
             <div class="w-full relative z-0">
-                <div class="swiper default-carousel swiper-container">
+                <div class="swiper hero-carousel swiper-container">
                     <div class="swiper-wrapper">
                         <!-- Slide 1: new top view -->
                         <div class="swiper-slide hero-v2-slide">
@@ -716,7 +716,7 @@ if (!empty($_SESSION['form_data'])) {
                         </script>
                         <script>
                             document.addEventListener("DOMContentLoaded", () => {
-                            const el = document.querySelector(".default-carousel");
+                            const el = document.querySelector(".hero-carousel");
 
                             if (el) {
                                 new Swiper(el, {
