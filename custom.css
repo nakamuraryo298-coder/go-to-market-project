@@ -1067,8 +1067,8 @@ display: none;
         flex-direction: column;
         justify-content: space-around;
         background: #f0f4fb;
-        padding: 14px 0;
-        padding-bottom: 30%;
+        /* padding: 14px 0; */
+        padding-bottom: 37%;
         overflow: hidden;
     }
 
@@ -1110,25 +1110,25 @@ display: none;
         width: 85%;
         margin: 4px auto 0;
     }
-    .hl--laptop      { left: -6%;  top: 8%;   width: 145%; }
-    .hl--report-page { left: 13%;    top: 27%;  width: 25%; }
-    .hl--character   { left: 80%;   top: 43%;  width: 13%; }
+    .hl--laptop      { left: -7%;  top: 8%;   width: 145%; transform: scale(1.2); }
+    .hl--report-page { left: 9%;    top: 27%;  width: 28%; }
+    .hl--character   { left: 85%;   top: 50%;  width: 14%; }
     .hl--blob-main   { display: none; }                       /* desktop blob hidden on mobile */
-    .hl--blob-sp     { display: block; left: 16%; top: -4%; width: 70%; z-index: 1; transform: rotate(-99deg); }  /* SP blob */
-    .hl--blob-left   { left: 75%;   top: -35%;  width: 34%; transform: rotate(218deg) }
-    .hl--icon-network{ left: 43%;   top: 2%;   width: 9%; }
-    .hl--icon-coins  { left: 67%;   top: -25%;  width: 8%; }
-    .hl--icon-chart  { left: 91%;   top: 83%;  width: 7%; }
-    .hl--circle-2 { display: block; left: 80%; top:-40%; width:2%;}
-    .hl--circle-3 { display: block; top:9%; left: 86%; width: 5%; }
-    .hl--circle-solid { display: block; left: 12%; top: 85%; width: 4%; }
-    .hl--circle-1 { display: block; width: 7%; }
+    .hl--blob-sp     { display: block; left: 11%; top: -16%; width: 78%; z-index: 1; transform: rotate(-99deg); }  /* SP blob */
+    .hl--blob-left   { left: 85%;   top: -90%;  width: 98%; transform: rotate(217deg) }
+    .hl--icon-network{ left: 40%;   top: -8%;   width: 11%; }
+    .hl--icon-coins  { left: 68%;   top: -49%;  width: 10%; }
+    .hl--icon-chart  { left: 74%;   top: 90%;  width: 10%; }
+    .hl--circle-2 { display: block; left: 80%; top:-80%; width:4%;}
+    .hl--circle-3 { display: block; top:1%; left: 89%; width: 7%; }
+    .hl--circle-solid { display: block; left: 10%; top: 93%; width: 6%; }
+    .hl--circle-1 { display: block; width: 10%; left: 4%; top: 95%; }
     /* small accent circles: hidden on mobile (minor) */
     .hl--circle-1, .hl--circle-2, .hl--circle-3, .hl--circle-solid { display: block; }
 
     /* callout */
     .hero-callout{
-        width: 40%;
+        width: auto;
         max-width: 207px;
     }
     .hero-callout,
