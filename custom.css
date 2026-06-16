@@ -890,6 +890,21 @@ display: none;
     overflow: hidden;
     background: #f0f4fb;                   /* the board color */
 }
+
+/* Slide 1 wrapper — match the banner slides' height (90vh / max 1024 / lg min 780)
+   and center the composition inside, so all 3 slides are the same height. */
+.hero-v2-slide {
+    height: 90vh;
+    max-height: 1024px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #f0f4fb;
+}
+.hero-v2-slide .hero-v2 { width: 100%; }
+@media (min-width: 1024px) {
+    .hero-v2-slide { min-height: 780px; }
+}
 .hero-v2__board {
     position: relative;
     width: 100%;
