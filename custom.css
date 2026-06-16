@@ -1073,15 +1073,15 @@ display: none;
         overflow: hidden;
     }
 
-    /* 1) copy — overlaid at the top, left-aligned */
+    /* 1) copy — overlaid at the BOTTOM, centered (like slides 2 & 3) */
     .hero-v2__inner {
         position: absolute;
-        top: 0;
+        bottom: 0;
         left: 0;
         right: 0;
         z-index: 10;
-        padding: 26px 22px 0;
-        text-align: left;
+        padding: 0 22px 48px;
+        text-align: center;
         pointer-events: auto;
     }
     .hero-v2__copy { position: static; transform: none; width: 100%; max-width: none; }
@@ -1092,23 +1092,22 @@ display: none;
     .hero-v2__lead   { font-size: 15px; line-height: 1.75; margin-top: 18px; }
     .hero-v2__brk    { display: inline; }   /* keep the designed line breaks on mobile (no mid-word wrap) */
     .hero-v2__cta {
-        display: flex;
-        width: 100%;
+        width: auto;
         margin-top: 22px;
         font-size: 16px;
         gap: 8px;
-        padding: 14px 20px;
+        padding: 14px 28px;
         border-radius: 8px;
     }
     .hero-v2__cta-arrow { width: 18px; height: 18px; }
-    /* CTA stays with the copy in the top overlay; the after-board SP CTA is hidden */
-    .hero-v2__copy .hero-v2__cta { display: flex; }
+    /* CTA sits with the copy, centered (auto width) like slides 2 & 3; after-board SP CTA hidden */
+    .hero-v2__copy .hero-v2__cta { display: inline-flex; }
     .hero-v2__cta--sp { display: none; }
 
-    /* 2) composition pinned to the bottom of the slide */
+    /* 2) composition pinned to the TOP of the slide */
     .hero-v2__board {
         position: absolute;
-        bottom: 0;
+        top: 0;
         left: 0;
         right: 0;
         aspect-ratio: 100 / 82;
