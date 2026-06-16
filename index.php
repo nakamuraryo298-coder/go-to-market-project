@@ -716,7 +716,6 @@ if (!empty($_SESSION['form_data'])) {
             new Swiper(el, {
             loop: true,
             slidesPerView: 1,
-            autoHeight: true,
             effect: "slide",
             fadeEffect: { crossFade: true },
             pagination: {

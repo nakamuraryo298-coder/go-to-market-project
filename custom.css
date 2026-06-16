@@ -892,8 +892,10 @@ display: none;
 }
 
 /* Slide 1 wrapper — match the banner slides' height (90vh / max 1024 / lg min 780)
-   and center the composition inside, so all 3 slides are the same height. */
-.hero-v2-slide {
+   and center the composition inside, so all 3 slides are the same height.
+   Uses .swiper-slide.hero-v2-slide so the height wins over Swiper's
+   `.swiper-slide { height: 100% }` (its CDN CSS loads after custom.css). */
+.swiper-slide.hero-v2-slide {
     height: 90vh;
     max-height: 1024px;
     display: flex;
@@ -903,7 +905,7 @@ display: none;
 }
 .hero-v2-slide .hero-v2 { width: 100%; }
 @media (min-width: 1024px) {
-    .hero-v2-slide { min-height: 780px; }
+    .swiper-slide.hero-v2-slide { height: 90vh; min-height: 780px; }
 }
 .hero-v2__board {
     position: relative;
