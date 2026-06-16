@@ -904,7 +904,7 @@ display: none;
     overflow: hidden;
     background: #f0f4fb;
 }
-.hero-v2-slide .hero-v2 { width: 100%; height: 100%;}
+.hero-v2-slide .hero-v2 { width: 100%;}
 @media (min-width: 1024px) {
     .swiper-slide.hero-v2-slide { height: 90vh; min-height: 780px; }
 }
@@ -1059,16 +1059,15 @@ display: none;
 .hero-v2__cta--en small { font-size: .72em; font-weight: 700; margin-top: 0.15em; }
 .hero-v2__cta--sp { display: none; }   /* mobile-only CTA (shown after the images on SP) */
 
-/* ===== Mobile (SP) ONLY — per the SP design mockup. PC/tablet untouched.
-   Layout: left-aligned copy + full-width CTA, then the FULL composition
-   (laptop + floating report + character + icons + blobs + callout) scaled up
-   in a taller frame. Layer %s are first-pass estimates from the mockup. ===== */
-@media (max-width: 767px) {
+/* ===== Mobile / tablet (≤1024px) — the SP slide-1 layout. PC (≥1025px) untouched.
+   Layout: copy + CTA overlaid at the top, composition pinned to the bottom. ===== */
+@media (max-width: 1024px) {
     .hero-v2 {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         background: #f0f4fb;
-        padding-top: 28px;
+        padding: 14px 0;
         overflow: hidden;
     }
 
@@ -1085,7 +1084,7 @@ display: none;
     /* quote on its own line so の課題を、 stays together on the next line (no mid-phrase break) */
     .hero-v2__quote  { font-size: 35px; line-height: 1.25; margin-bottom: 4px; display: block; }
     .hero-v2__accent { font-size: 37px; line-height: 1.3; }
-    .hero-v2__lead   { font-size: 15px; line-height: 1.75; margin-top: 18px; }
+    .hero-v2__lead   { font-size: 15px; line-height: 1.7; margin-top: 10px; }
     .hero-v2__brk    { display: inline; }   /* keep the designed line breaks on mobile (no mid-word wrap) */
     .hero-v2__cta {
         display: flex;
@@ -1099,15 +1098,16 @@ display: none;
     .hero-v2__cta-arrow { width: 18px; height: 18px; }
     /* move CTA below the images on mobile: hide in-copy CTA, show the SP CTA after the board */
     .hero-v2__copy .hero-v2__cta { display: none; }
-    .hero-v2__cta--sp { display: flex; order: 3; width: auto; align-self: stretch; margin: 20px 24px 0; }   /* side margins on the CTA */
+    .hero-v2__cta--sp { display: flex; position: absolute; left: 24px; right: 24px; bottom: 10%; z-index: 99; width: auto; margin: 0; }   /* pinned left+right → centered with equal 24px margins */
 
-    /* 2) full composition below, scaled up for a taller mobile frame */
+    /* 2) composition — slightly reduced + tight margins so the whole stack
+       (incl. the CTA) fits within the 90vh slide on small phones (iPhone SE) */
     .hero-v2__board {
         order: 2;
         position: relative;
         aspect-ratio: 100 / 82;
-        width: 100%;
-        margin-top: 18px;
+        width: 85%;
+        margin: 4px auto 0;
     }
     .hl--laptop      { left: -6%;  top: 8%;   width: 145%; }
     .hl--report-page { left: 13%;    top: 27%;  width: 25%; }
