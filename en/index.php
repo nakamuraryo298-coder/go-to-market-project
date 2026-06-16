@@ -64,7 +64,7 @@ if (!empty($_SESSION['form_data'])) {
                         </div>
                         <!-- Slide 2: existing top view -->
                         <div class="swiper-slide">
-                            <div class="bg-banner-01 lg-bg-banner-01 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
+                            <div class="bg-banner-01 lg-bg-banner-01 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-full min-h-full flex flex-col">
                                 <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
                                     <div class="w-full text-white">
                                         <h1 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight text-shadow-lg">Are You Confident in Your<br><span class="text-skyBlue w-2 lg:text-blueText font-bold">GTM Strategy?</span></h1>
@@ -75,7 +75,7 @@ if (!empty($_SESSION['form_data'])) {
                         </div>
                         <!-- Slide 3: existing top view -->
                         <div class="swiper-slide">
-                            <div class="bg-banner-03  lg-bg-banner-03 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
+                            <div class="bg-banner-03  lg-bg-banner-03 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-full min-h-full flex flex-col">
                                 <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
                                     <div class="w-full text-white">
                                         <h1 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight text-shadow-lg">Unlock Your GTM Advantage<br><span class="text-skyBlue w-2 lg:text-blueText font-bold">Select Your Intro Offer</span></h1>
@@ -722,7 +722,6 @@ if (!empty($_SESSION['form_data'])) {
                                 new Swiper(el, {
                                 loop: true,
                                 slidesPerView: 1,
-                                autoHeight: true,
                                 effect: "slide",
                                 fadeEffect: { crossFade: true },
                                 pagination: {
