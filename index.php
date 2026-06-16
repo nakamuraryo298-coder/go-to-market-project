@@ -17,8 +17,12 @@ if (!empty($_SESSION['form_data'])) {
 ?>
 <body class="overflow-x-hidden font-bold">
 
-            <!-- ===== Top view (layered composition on #f0f4fb board — Figma 案02_ver02) ===== -->
+            <!-- ===== Top view slider: slide 1 = redesign (Figma 案02_ver02), slides 2-3 = existing ===== -->
             <div class="w-full relative z-0">
+                <div class="swiper default-carousel">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1: new top view -->
+                        <div class="swiper-slide">
                 <section class="hero-v2">
                     <div class="hero-v2__board">
                         <img class="hl hl--blob-main"   src="<?= asset('assets/images/hero/blob-main.png'); ?>"   alt="" aria-hidden="true">
@@ -55,6 +59,33 @@ if (!empty($_SESSION['form_data'])) {
                         <svg class="hero-v2__cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </a>
                 </section>
+                        </div>
+                        <!-- Slide 2: existing top view -->
+                        <div class="swiper-slide">
+                            <div class="bg-banner-01 lg-bg-banner-01  bg-cover bg-no-repeat bg-center mx-auto md:w-full px-1 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
+                                <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
+                                    <div class="w-full text-white">
+                                        <h2 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight">「売れない原因」、<br><span class="text-skyBlue">営業だけの問題</span>にしていませんか？</h2>
+                                        <h3 class="text-[16px] md:text-[21px] pt-2 mb-[40px] lg:pb-6 lg:py-4">マーケティング・営業・CSの分断を整理し、<br class="hidden sm:block">“売れる仕組み”をGo-to-Market（GTM）戦略から見直しましょう。</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3: existing top view -->
+                        <div class="swiper-slide">
+                            <div class="bg-banner-03 lg-bg-banner-03 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
+                                <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
+                                    <div class="w-full text-white">
+                                        <h2 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight">「営業任せ」の成長に、<br><span class="text-skyBlue">限界</span>を感じていませんか？</h2>
+                                        <h3 class="text-[16px] md:text-[21px] pt-2 lg:pb-2 lg:py-4">まずは市場・顧客・営業プロセスを整理するところから。<br>課題や成長フェーズに合わせて、貴社にフィットするGTM 戦略を提案いたします。</h3>
+                                        <a href="https://timerex.net/s/contact_d1e0_257d/86059caa" target="_blank" class="bg-[#e45b11] hover:bg-orange-600 h-auto inline-block md:w-[320px] px-10 py-4 font-bold text-[20px] my-[20px] mt-3 text-white text-center rounded uppercase">GTM 課題を相談してみる</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination max-w-[1280px] lg:absolute lg:right-0 m-auto lg:flex lg:gap-1.5 px-11 mb-4"></div>
+                </div>
             </div>
         </div>
         <section class="bg-lightBlue py-7 sm:py-16 md:py-20 lg:py-24" id="strategies">
@@ -685,6 +716,7 @@ if (!empty($_SESSION['form_data'])) {
             new Swiper(el, {
             loop: true,
             slidesPerView: 1,
+            autoHeight: true,
             effect: "slide",
             fadeEffect: { crossFade: true },
             pagination: {
@@ -695,7 +727,7 @@ if (!empty($_SESSION['form_data'])) {
                 delay: 5000,
                 disableOnInteraction: false,
             },
-            speed: 1300, 
+            speed: 1300,
             });
         }
         });

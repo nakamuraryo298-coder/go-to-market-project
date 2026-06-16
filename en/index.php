@@ -16,8 +16,12 @@ if (!empty($_SESSION['form_data'])) {
     $redirectUrl = BASE_URL . '/en/gtm-assessment';
 }
 ?>
-            <!-- ===== Top view (layered composition on #f0f4fb board — Figma 案02_ver02) ===== -->
+            <!-- ===== Top view slider: slide 1 = redesign (Figma 案02_ver02), slides 2-3 = existing ===== -->
             <div class="w-full relative z-0">
+                <div class="swiper default-carousel swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1: new top view -->
+                        <div class="swiper-slide">
                 <section class="hero-v2">
                     <div class="hero-v2__board">
                         <img class="hl hl--blob-main"   src="<?= asset('assets/images/hero/blob-main.png'); ?>"   alt="" aria-hidden="true">
@@ -57,6 +61,34 @@ if (!empty($_SESSION['form_data'])) {
                         <svg class="hero-v2__cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </a>
                 </section>
+                        </div>
+                        <!-- Slide 2: existing top view -->
+                        <div class="swiper-slide">
+                            <div class="bg-banner-01 lg-bg-banner-01 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
+                                <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
+                                    <div class="w-full text-white">
+                                        <h1 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight text-shadow-lg">Are You Confident in Your<br><span class="text-skyBlue w-2 lg:text-blueText font-bold">GTM Strategy?</span></h1>
+                                        <h2 class="text-[16px] md:text-[21px] pt-2 mb-[16px] lg:pb-6 lg:py-4">Go-to-Market strategy starts with building repeatable revenue growth.<br>Let’s define what to sell, to whom, and how to win.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3: existing top view -->
+                        <div class="swiper-slide">
+                            <div class="bg-banner-03  lg-bg-banner-03 bg-cover bg-no-repeat bg-center mx-auto md:w-full px-4 sm:py-4 max-md:py-[30px] lg:pb-[40px] h-[90vh] max-h-[1024px] lg:min-h-[780px] flex flex-col">
+                                <div class="flex flex-1 items-end max-lg:justify-center pb-8 max-lg:text-center lg:text-left lg:justify-start w-full max-w-[1280px] mx-auto lg:px-8">
+                                    <div class="w-full text-white">
+                                        <h1 class="text-[30px] md:text-[54px] pb-2 mx-auto lg:mx-0 md:w-full leading-tight text-shadow-lg">Unlock Your GTM Advantage<br><span class="text-skyBlue w-2 lg:text-blueText font-bold">Select Your Intro Offer</span></h1>
+                                        <h2 class="text-[16px] md:text-[21px] pt-2 lg:pb-2 lg:py-4">Select one of the following:<br>• 50% off your first two months<br>• One-month GTM strategy & action-plan review at a special rate</h2>
+                                        <p>Perfect for teams who want to start small and see results before scaling.</p>
+                                        <p class="text-[14px] mt-2 lg:mt-0">※Offer valid through February 2026.</p><a href="https://go-to-market.jp/en/#contact" class="bg-[#e45b11] hover:bg-orange-600 h-auto inline-block md:w-[320px] lg:w-md px-10 py-4 font-bold my-[20px] mt-3 text-white text-center rounded uppercase">Book a free consultation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination max-w-[1280px] lg:absolute lg:right-0 m-auto lg:flex lg:gap-1.5 px-11 mb-4"></div>
+                </div>
             </div>
         </div>
         <section class="bg-lightBlue py-7 sm:py-16 md:py-20 lg:py-24" id="strategies">
@@ -690,6 +722,7 @@ if (!empty($_SESSION['form_data'])) {
                                 new Swiper(el, {
                                 loop: true,
                                 slidesPerView: 1,
+                                autoHeight: true,
                                 effect: "slide",
                                 fadeEffect: { crossFade: true },
                                 pagination: {
