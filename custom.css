@@ -1063,19 +1063,24 @@ display: none;
    (laptop + floating report + character + icons + blobs + callout) scaled up
    in a taller frame. Layer %s are first-pass estimates from the mockup. ===== */
 @media (max-width: 767px) {
+    /* slide 1 fills the 90vh slide; text overlays the top, composition pinned to
+       the bottom — both anchored so neither ever clips, even on short viewports */
+    .hero-v2-slide { align-items: stretch; }
     .hero-v2 {
-        display: flex;
-        flex-direction: column;
+        position: relative;
+        height: 100%;
         background: #f0f4fb;
-        padding-top: 28px;
         overflow: hidden;
     }
 
-    /* 1) copy — left-aligned, large title, full-width CTA */
+    /* 1) copy — overlaid at the top, left-aligned */
     .hero-v2__inner {
-        position: static;
-        order: 1;
-        padding: 0 24px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        padding: 26px 22px 0;
         text-align: left;
         pointer-events: auto;
     }
@@ -1089,24 +1094,25 @@ display: none;
     .hero-v2__cta {
         display: flex;
         width: 100%;
-        margin-top: 24px;
-        font-size: 17px;
+        margin-top: 22px;
+        font-size: 16px;
         gap: 8px;
-        padding: 16px 20px;
+        padding: 14px 20px;
         border-radius: 8px;
     }
     .hero-v2__cta-arrow { width: 18px; height: 18px; }
-    /* move CTA below the images on mobile: hide in-copy CTA, show the SP CTA after the board */
-    .hero-v2__copy .hero-v2__cta { display: none; }
-    .hero-v2__cta--sp { display: flex; order: 3; width: auto; align-self: stretch; margin: 20px 24px 0; }   /* side margins on the CTA */
+    /* CTA stays with the copy in the top overlay; the after-board SP CTA is hidden */
+    .hero-v2__copy .hero-v2__cta { display: flex; }
+    .hero-v2__cta--sp { display: none; }
 
-    /* 2) full composition below, scaled up for a taller mobile frame */
+    /* 2) composition pinned to the bottom of the slide */
     .hero-v2__board {
-        order: 2;
-        position: relative;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
         aspect-ratio: 100 / 82;
         width: 100%;
-        margin-top: 18px;
     }
     .hl--laptop      { left: -6%;  top: 8%;   width: 145%; }
     .hl--report-page { left: 13%;    top: 27%;  width: 25%; }
